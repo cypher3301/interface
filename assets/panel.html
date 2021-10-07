@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--    @@include('./head/_styles.html')-->
+    <link href="css/reset.css" type="text/css" rel="stylesheet">
+    <link href="css/header.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+<!--    @@include('./body/_header.html')-->
+    <header class="header">
+        <div class="menu">
+            <div class="invoice">
+                <div class="more"><button disabled type="button" name="delivery">Посылки</button></div>
+                <div class="invoice__show-storage"><button disabled type="button" name="delivery">Склад</button></div>
+                <div class="delivery__create-invoice"><button disabled type="button" name="delivery">Создать накладкую</button></div>
+            </div>
+
+            <div class="delivery">
+                <div class="more"><button disabled type="button" class="more__delivery" name="delivery">Доставка</button></div>
+                <div class="delivery__coming"><button disabled type="button" name="delivery">Выгрузка машины</button></div>
+                <div class="delivery__lining"><button disabled type="button" name="delivery">Погрузка машины</button></div>
+            </div>
+
+
+            <div class="user">
+                <div class="container">
+                    <div class="attributes">
+                        <div class="attributes__username">Пользователь</div>
+                        <div class="attributes__user-icon"><img src="" alt=""/></div>
+                        <div class="attributes__user-more">
+                            <div class="attributes__user-more_dots"></div>
+                            <div class="attributes__user-more_dots"></div>
+                            <div class="attributes__user-more_dots"></div>
+                        </div>
+
+                    </div>
+                    <div class="operations">
+                        <div class="operations__open"><button type="button" name="open-work-shift">Открыть смену</button></div>
+                        <div class="operations__close"><button disabled type="button" name="close-work-shift">Закрыть смену</button></div>
+                        <div class="operations__exit"><button type="button" name="exit">Выйти</button></div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </header>
+    <main class="main">
+        <section class="data">
+
+        </section>
+    </main>
+</div>
+</body>
+</html>

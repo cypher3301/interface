@@ -1,0 +1,162 @@
+button:active {
+  -webkit-box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+body {
+  height: 100%;
+  background: #ececec;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, serif;
+  font-style: normal;
+  font-weight: normal;
+}
+body .wrapper header.header {
+  padding: 10px;
+  height: 80px;
+  background: #F0F0F0;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .wrapper header.header .help button.help-button {
+  width: 170px;
+  height: 50px;
+  background: #E3E3E3;
+  font-size: 24px;
+  line-height: 28px;
+  border: 0px;
+  color: #000000;
+}
+body .wrapper header.header .help button.help-button:hover {
+  background: #dbdbdb;
+}
+body .wrapper header.header .help button.help-button:active {
+  background: #cecece;
+}
+body .wrapper main.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .wrapper main.main .container {
+  margin: 50px;
+}
+body .wrapper main.main .container .sing-in {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #d4d4d4;
+  width: 500px;
+  height: 540px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+body .wrapper main.main .container .sing-in .sing-in__title {
+  margin-top: 80px;
+}
+body .wrapper main.main .container .sing-in .sing-in__title span {
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+}
+body .wrapper main.main .container .sing-in form {
+  max-width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .wrapper main.main .container .sing-in form input {
+  padding-left: 30px;
+  margin-top: 60px;
+  width: 250px;
+  height: 56px;
+  font-size: 24px;
+}
+body .wrapper main.main .container .sing-in form input::-webkit-input-placeholder {
+  font-size: 24px;
+  line-height: 28px;
+}
+body .wrapper main.main .container .sing-in form input::-moz-placeholder {
+  font-size: 24px;
+  line-height: 28px;
+}
+body .wrapper main.main .container .sing-in form input:-ms-input-placeholder {
+  font-size: 24px;
+  line-height: 28px;
+}
+body .wrapper main.main .container .sing-in form input::-ms-input-placeholder {
+  font-size: 24px;
+  line-height: 28px;
+}
+body .wrapper main.main .container .sing-in form input::placeholder {
+  font-size: 24px;
+  line-height: 28px;
+}
+body .wrapper main.main .container .sing-in form .sing-in__buttons {
+  margin-top: 80px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body .wrapper main.main .container .sing-in form .sing-in__buttons button {
+  width: 135px;
+  height: 40px;
+  font-size: 18px;
+  line-height: 21px;
+  border: 0px;
+}
+body .wrapper main.main .container .sing-in form .sing-in__buttons button.sing-in__button_reset {
+  background: #bbbbbb;
+  color: #247dff;
+}
+body .wrapper main.main .container .sing-in form .sing-in__buttons button.sing-in__button_reset:hover {
+  background: #b4b4b4;
+}
+body .wrapper main.main .container .sing-in form .sing-in__buttons button.sing-in__button_reset:active {
+  background: #9e9e9e;
+}
+body .wrapper main.main .container .sing-in form .sing-in__buttons button.sing-in__button_submit {
+  background: #80B3FC;
+}
+body .wrapper main.main .container .sing-in form .sing-in__buttons button.sing-in__button_submit:hover {
+  background: #5a96e5;
+}
+body .wrapper main.main .container .sing-in form .sing-in__buttons button.sing-in__button_submit:active {
+  background: #4c81c2;
+}
+main .data {
+  width: 30%;
+  height: 100%;
+  background: #9e9e9e;
+}
+/*# sourceMappingURL=login.css.map */

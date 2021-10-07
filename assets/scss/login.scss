@@ -1,0 +1,136 @@
+
+button:active {
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+body {
+  height: 100%;
+  background: #ececec;
+  //box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, serif;
+  font-style: normal;
+  font-weight: normal;
+
+  .wrapper {
+    header.header {
+      padding: 10px;
+      height: 80px;
+      background: #F0F0F0;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      .help {
+        button.help-button {
+          width: 170px;
+          height: 50px;
+          background: #E3E3E3;
+          font-size: 24px;
+          line-height: 28px;
+          border: 0px;
+          color: #000000;
+        }
+        button.help-button:hover{
+          background: #dbdbdb;
+        }
+        button.help-button:active{
+          background: #cecece;
+        }
+
+      }
+    }
+    main.main {
+      display: flex;
+      justify-content: center;
+      .container {
+        margin: 50px;
+
+        .sing-in {
+          align-items: center;
+          //margin: auto;
+          background: #d4d4d4;
+          width: 500px;
+          height: 540px;
+          margin: auto;
+          display: flex;
+          flex-direction: column;
+          .sing-in__title {
+            margin-top: 80px;
+            span {
+              font-size: 48px;
+              line-height: 56px;
+              color: #000000;
+            }
+          }
+          form {
+            max-width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            input{
+              padding-left: 30px;
+              margin-top: 60px;
+              width: 250px;
+              height: 56px;
+              font-size: 24px;
+            }
+            input::placeholder{
+
+              font-size: 24px;
+              line-height: 28px;
+            }
+            input.sing-in__login {}
+            input.sing-in__password {}
+
+            .sing-in__buttons {
+              margin-top: 80px;
+              width: 100%;
+              display: flex;
+              justify-content: space-between;
+              button{
+                width: 135px;
+                height: 40px;
+                font-size: 18px;
+                line-height: 21px;
+                border: 0px;
+              }
+              button.sing-in__button_reset {
+                background: #bbbbbb;
+                color: #247dff;
+              }
+              button.sing-in__button_reset:hover{
+                background: #b4b4b4;
+              }
+              button.sing-in__button_reset:active{
+                background: #9e9e9e;
+              }
+
+              button.sing-in__button_submit {
+                background: #80B3FC;
+              }
+              button.sing-in__button_submit:hover {
+                background: #5a96e5;
+              }
+              button.sing-in__button_submit:active {
+                background: #4c81c2;
+              }
+
+
+            }
+          }
+        }
+      }
+    }
+    footer.footer {}
+  }
+}
+
+main{
+  .data{
+    width: 30%;
+    height: 100%;
+    background: #9e9e9e;
+  }
+}
