@@ -1,0 +1,2539 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+:focus {
+  outline: 0;
+}
+
+ins {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: default;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+  height: 100%;
+  background: #e2e2e2;
+}
+
+html header,
+body header {
+  background: #f0f0f0;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+html .first-header,
+body .first-header {
+  text-align: right;
+}
+
+html .first-header .first-header__button,
+body .first-header .first-header__button {
+  width: 167px;
+  height: 47px;
+  background: #e3e3e3;
+  -webkit-box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+  font-size: 24px;
+  line-height: 28px;
+  margin: 17px 26px;
+}
+
+html .first-header .first-header__button:hover,
+body .first-header .first-header__button:hover {
+  background: #d1d1d1;
+  -webkit-box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.3);
+}
+
+html .first-header .first-header__button:active,
+body .first-header .first-header__button:active {
+  background: #bdbdbd;
+  -webkit-box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.35);
+          box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.35);
+}
+
+html .second-header,
+html .third-header,
+html .fourth-header,
+html .fifth-header,
+html .sixth-header,
+html .seventh-header,
+html .eighth-header,
+body .second-header,
+body .third-header,
+body .fourth-header,
+body .fifth-header,
+body .sixth-header,
+body .seventh-header,
+body .eighth-header {
+  position: relative;
+  width: 100%;
+  z-index: 5;
+}
+
+html .second-header .wrapper .header-menu,
+html .third-header .wrapper .header-menu,
+html .fourth-header .wrapper .header-menu,
+html .fifth-header .wrapper .header-menu,
+html .sixth-header .wrapper .header-menu,
+html .seventh-header .wrapper .header-menu,
+html .eighth-header .wrapper .header-menu,
+body .second-header .wrapper .header-menu,
+body .third-header .wrapper .header-menu,
+body .fourth-header .wrapper .header-menu,
+body .fifth-header .wrapper .header-menu,
+body .sixth-header .wrapper .header-menu,
+body .seventh-header .wrapper .header-menu,
+body .eighth-header .wrapper .header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-right: 5px;
+}
+
+html .second-header .wrapper .header-menu .header-menu__container,
+html .third-header .wrapper .header-menu .header-menu__container,
+html .fourth-header .wrapper .header-menu .header-menu__container,
+html .fifth-header .wrapper .header-menu .header-menu__container,
+html .sixth-header .wrapper .header-menu .header-menu__container,
+html .seventh-header .wrapper .header-menu .header-menu__container,
+html .eighth-header .wrapper .header-menu .header-menu__container,
+body .second-header .wrapper .header-menu .header-menu__container,
+body .third-header .wrapper .header-menu .header-menu__container,
+body .fourth-header .wrapper .header-menu .header-menu__container,
+body .fifth-header .wrapper .header-menu .header-menu__container,
+body .sixth-header .wrapper .header-menu .header-menu__container,
+body .seventh-header .wrapper .header-menu .header-menu__container,
+body .eighth-header .wrapper .header-menu .header-menu__container {
+  width: 277px;
+  margin: 5px 0;
+}
+
+html .second-header .wrapper .header-menu .header-menu__container ul li,
+html .third-header .wrapper .header-menu .header-menu__container ul li,
+html .fourth-header .wrapper .header-menu .header-menu__container ul li,
+html .fifth-header .wrapper .header-menu .header-menu__container ul li,
+html .sixth-header .wrapper .header-menu .header-menu__container ul li,
+html .seventh-header .wrapper .header-menu .header-menu__container ul li,
+html .eighth-header .wrapper .header-menu .header-menu__container ul li,
+body .second-header .wrapper .header-menu .header-menu__container ul li,
+body .third-header .wrapper .header-menu .header-menu__container ul li,
+body .fourth-header .wrapper .header-menu .header-menu__container ul li,
+body .fifth-header .wrapper .header-menu .header-menu__container ul li,
+body .sixth-header .wrapper .header-menu .header-menu__container ul li,
+body .seventh-header .wrapper .header-menu .header-menu__container ul li,
+body .eighth-header .wrapper .header-menu .header-menu__container ul li {
+  margin: 1px 0;
+}
+
+html .second-header .wrapper .header-menu .header-menu__container ul li a .button-parcels,
+html .third-header .wrapper .header-menu .header-menu__container ul li a .button-parcels,
+html .fourth-header .wrapper .header-menu .header-menu__container ul li a .button-parcels,
+html .fifth-header .wrapper .header-menu .header-menu__container ul li a .button-parcels,
+html .sixth-header .wrapper .header-menu .header-menu__container ul li a .button-parcels,
+html .seventh-header .wrapper .header-menu .header-menu__container ul li a .button-parcels,
+html .eighth-header .wrapper .header-menu .header-menu__container ul li a .button-parcels,
+body .second-header .wrapper .header-menu .header-menu__container ul li a .button-parcels,
+body .third-header .wrapper .header-menu .header-menu__container ul li a .button-parcels,
+body .fourth-header .wrapper .header-menu .header-menu__container ul li a .button-parcels,
+body .fifth-header .wrapper .header-menu .header-menu__container ul li a .button-parcels,
+body .sixth-header .wrapper .header-menu .header-menu__container ul li a .button-parcels,
+body .seventh-header .wrapper .header-menu .header-menu__container ul li a .button-parcels,
+body .eighth-header .wrapper .header-menu .header-menu__container ul li a .button-parcels {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html .second-header .wrapper .header-menu .header-menu__container ul li a button,
+html .third-header .wrapper .header-menu .header-menu__container ul li a button,
+html .fourth-header .wrapper .header-menu .header-menu__container ul li a button,
+html .fifth-header .wrapper .header-menu .header-menu__container ul li a button,
+html .sixth-header .wrapper .header-menu .header-menu__container ul li a button,
+html .seventh-header .wrapper .header-menu .header-menu__container ul li a button,
+html .eighth-header .wrapper .header-menu .header-menu__container ul li a button,
+body .second-header .wrapper .header-menu .header-menu__container ul li a button,
+body .third-header .wrapper .header-menu .header-menu__container ul li a button,
+body .fourth-header .wrapper .header-menu .header-menu__container ul li a button,
+body .fifth-header .wrapper .header-menu .header-menu__container ul li a button,
+body .sixth-header .wrapper .header-menu .header-menu__container ul li a button,
+body .seventh-header .wrapper .header-menu .header-menu__container ul li a button,
+body .eighth-header .wrapper .header-menu .header-menu__container ul li a button {
+  font-size: 24px;
+  line-height: 28px;
+  width: 277px;
+  height: 47px;
+  background: #e3e3e3;
+  padding-top: 10px;
+}
+
+html .second-header .wrapper .header-menu .header-menu__container ul li a button .circles,
+html .third-header .wrapper .header-menu .header-menu__container ul li a button .circles,
+html .fourth-header .wrapper .header-menu .header-menu__container ul li a button .circles,
+html .fifth-header .wrapper .header-menu .header-menu__container ul li a button .circles,
+html .sixth-header .wrapper .header-menu .header-menu__container ul li a button .circles,
+html .seventh-header .wrapper .header-menu .header-menu__container ul li a button .circles,
+html .eighth-header .wrapper .header-menu .header-menu__container ul li a button .circles,
+body .second-header .wrapper .header-menu .header-menu__container ul li a button .circles,
+body .third-header .wrapper .header-menu .header-menu__container ul li a button .circles,
+body .fourth-header .wrapper .header-menu .header-menu__container ul li a button .circles,
+body .fifth-header .wrapper .header-menu .header-menu__container ul li a button .circles,
+body .sixth-header .wrapper .header-menu .header-menu__container ul li a button .circles,
+body .seventh-header .wrapper .header-menu .header-menu__container ul li a button .circles,
+body .eighth-header .wrapper .header-menu .header-menu__container ul li a button .circles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 18px;
+  margin-top: 8px;
+}
+
+html .second-header .wrapper .header-menu .header-menu__container ul li a button .circles .circle,
+html .third-header .wrapper .header-menu .header-menu__container ul li a button .circles .circle,
+html .fourth-header .wrapper .header-menu .header-menu__container ul li a button .circles .circle,
+html .fifth-header .wrapper .header-menu .header-menu__container ul li a button .circles .circle,
+html .sixth-header .wrapper .header-menu .header-menu__container ul li a button .circles .circle,
+html .seventh-header .wrapper .header-menu .header-menu__container ul li a button .circles .circle,
+html .eighth-header .wrapper .header-menu .header-menu__container ul li a button .circles .circle,
+body .second-header .wrapper .header-menu .header-menu__container ul li a button .circles .circle,
+body .third-header .wrapper .header-menu .header-menu__container ul li a button .circles .circle,
+body .fourth-header .wrapper .header-menu .header-menu__container ul li a button .circles .circle,
+body .fifth-header .wrapper .header-menu .header-menu__container ul li a button .circles .circle,
+body .sixth-header .wrapper .header-menu .header-menu__container ul li a button .circles .circle,
+body .seventh-header .wrapper .header-menu .header-menu__container ul li a button .circles .circle,
+body .eighth-header .wrapper .header-menu .header-menu__container ul li a button .circles .circle {
+  width: 13px;
+  height: 13px;
+  background: #d0d0d0;
+  border-radius: 100%;
+  margin-right: 6px;
+}
+
+html .second-header .wrapper .header-menu .header-menu__container ul li a button:hover,
+html .third-header .wrapper .header-menu .header-menu__container ul li a button:hover,
+html .fourth-header .wrapper .header-menu .header-menu__container ul li a button:hover,
+html .fifth-header .wrapper .header-menu .header-menu__container ul li a button:hover,
+html .sixth-header .wrapper .header-menu .header-menu__container ul li a button:hover,
+html .seventh-header .wrapper .header-menu .header-menu__container ul li a button:hover,
+html .eighth-header .wrapper .header-menu .header-menu__container ul li a button:hover,
+body .second-header .wrapper .header-menu .header-menu__container ul li a button:hover,
+body .third-header .wrapper .header-menu .header-menu__container ul li a button:hover,
+body .fourth-header .wrapper .header-menu .header-menu__container ul li a button:hover,
+body .fifth-header .wrapper .header-menu .header-menu__container ul li a button:hover,
+body .sixth-header .wrapper .header-menu .header-menu__container ul li a button:hover,
+body .seventh-header .wrapper .header-menu .header-menu__container ul li a button:hover,
+body .eighth-header .wrapper .header-menu .header-menu__container ul li a button:hover {
+  cursor: pointer;
+  background: #bebebe;
+  -webkit-transform: scale(1.03);
+      -ms-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 5;
+}
+
+html .second-header .wrapper .header-menu .header-menu__container ul li ul,
+html .third-header .wrapper .header-menu .header-menu__container ul li ul,
+html .fourth-header .wrapper .header-menu .header-menu__container ul li ul,
+html .fifth-header .wrapper .header-menu .header-menu__container ul li ul,
+html .sixth-header .wrapper .header-menu .header-menu__container ul li ul,
+html .seventh-header .wrapper .header-menu .header-menu__container ul li ul,
+html .eighth-header .wrapper .header-menu .header-menu__container ul li ul,
+body .second-header .wrapper .header-menu .header-menu__container ul li ul,
+body .third-header .wrapper .header-menu .header-menu__container ul li ul,
+body .fourth-header .wrapper .header-menu .header-menu__container ul li ul,
+body .fifth-header .wrapper .header-menu .header-menu__container ul li ul,
+body .sixth-header .wrapper .header-menu .header-menu__container ul li ul,
+body .seventh-header .wrapper .header-menu .header-menu__container ul li ul,
+body .eighth-header .wrapper .header-menu .header-menu__container ul li ul {
+  width: 277px;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+html .second-header .wrapper .header-menu .header-menu__container ul li ul li,
+html .third-header .wrapper .header-menu .header-menu__container ul li ul li,
+html .fourth-header .wrapper .header-menu .header-menu__container ul li ul li,
+html .fifth-header .wrapper .header-menu .header-menu__container ul li ul li,
+html .sixth-header .wrapper .header-menu .header-menu__container ul li ul li,
+html .seventh-header .wrapper .header-menu .header-menu__container ul li ul li,
+html .eighth-header .wrapper .header-menu .header-menu__container ul li ul li,
+body .second-header .wrapper .header-menu .header-menu__container ul li ul li,
+body .third-header .wrapper .header-menu .header-menu__container ul li ul li,
+body .fourth-header .wrapper .header-menu .header-menu__container ul li ul li,
+body .fifth-header .wrapper .header-menu .header-menu__container ul li ul li,
+body .sixth-header .wrapper .header-menu .header-menu__container ul li ul li,
+body .seventh-header .wrapper .header-menu .header-menu__container ul li ul li,
+body .eighth-header .wrapper .header-menu .header-menu__container ul li ul li {
+  background: #b4b3b3;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 270px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+html .second-header .wrapper .header-menu .header-menu__container ul li ul li a,
+html .third-header .wrapper .header-menu .header-menu__container ul li ul li a,
+html .fourth-header .wrapper .header-menu .header-menu__container ul li ul li a,
+html .fifth-header .wrapper .header-menu .header-menu__container ul li ul li a,
+html .sixth-header .wrapper .header-menu .header-menu__container ul li ul li a,
+html .seventh-header .wrapper .header-menu .header-menu__container ul li ul li a,
+html .eighth-header .wrapper .header-menu .header-menu__container ul li ul li a,
+body .second-header .wrapper .header-menu .header-menu__container ul li ul li a,
+body .third-header .wrapper .header-menu .header-menu__container ul li ul li a,
+body .fourth-header .wrapper .header-menu .header-menu__container ul li ul li a,
+body .fifth-header .wrapper .header-menu .header-menu__container ul li ul li a,
+body .sixth-header .wrapper .header-menu .header-menu__container ul li ul li a,
+body .seventh-header .wrapper .header-menu .header-menu__container ul li ul li a,
+body .eighth-header .wrapper .header-menu .header-menu__container ul li ul li a {
+  text-align: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 auto;
+}
+
+html .second-header .wrapper .header-menu .header-menu__container ul li ul li a button,
+html .third-header .wrapper .header-menu .header-menu__container ul li ul li a button,
+html .fourth-header .wrapper .header-menu .header-menu__container ul li ul li a button,
+html .fifth-header .wrapper .header-menu .header-menu__container ul li ul li a button,
+html .sixth-header .wrapper .header-menu .header-menu__container ul li ul li a button,
+html .seventh-header .wrapper .header-menu .header-menu__container ul li ul li a button,
+html .eighth-header .wrapper .header-menu .header-menu__container ul li ul li a button,
+body .second-header .wrapper .header-menu .header-menu__container ul li ul li a button,
+body .third-header .wrapper .header-menu .header-menu__container ul li ul li a button,
+body .fourth-header .wrapper .header-menu .header-menu__container ul li ul li a button,
+body .fifth-header .wrapper .header-menu .header-menu__container ul li ul li a button,
+body .sixth-header .wrapper .header-menu .header-menu__container ul li ul li a button,
+body .seventh-header .wrapper .header-menu .header-menu__container ul li ul li a button,
+body .eighth-header .wrapper .header-menu .header-menu__container ul li ul li a button {
+  width: 260px;
+  margin: 1px 0;
+  text-align: center;
+  height: 36px;
+  background: #ebebeb;
+  border-radius: 4px;
+  padding-top: 0;
+}
+
+html .second-header .wrapper .header-menu .header-menu__container ul .menu-button a button,
+html .third-header .wrapper .header-menu .header-menu__container ul .menu-button a button,
+html .fourth-header .wrapper .header-menu .header-menu__container ul .menu-button a button,
+html .fifth-header .wrapper .header-menu .header-menu__container ul .menu-button a button,
+html .sixth-header .wrapper .header-menu .header-menu__container ul .menu-button a button,
+html .seventh-header .wrapper .header-menu .header-menu__container ul .menu-button a button,
+html .eighth-header .wrapper .header-menu .header-menu__container ul .menu-button a button,
+body .second-header .wrapper .header-menu .header-menu__container ul .menu-button a button,
+body .third-header .wrapper .header-menu .header-menu__container ul .menu-button a button,
+body .fourth-header .wrapper .header-menu .header-menu__container ul .menu-button a button,
+body .fifth-header .wrapper .header-menu .header-menu__container ul .menu-button a button,
+body .sixth-header .wrapper .header-menu .header-menu__container ul .menu-button a button,
+body .seventh-header .wrapper .header-menu .header-menu__container ul .menu-button a button,
+body .eighth-header .wrapper .header-menu .header-menu__container ul .menu-button a button {
+  padding-top: 0;
+}
+
+html .second-header .wrapper .header-menu .header-menu__container ul ul,
+html .third-header .wrapper .header-menu .header-menu__container ul ul,
+html .fourth-header .wrapper .header-menu .header-menu__container ul ul,
+html .fifth-header .wrapper .header-menu .header-menu__container ul ul,
+html .sixth-header .wrapper .header-menu .header-menu__container ul ul,
+html .seventh-header .wrapper .header-menu .header-menu__container ul ul,
+html .eighth-header .wrapper .header-menu .header-menu__container ul ul,
+body .second-header .wrapper .header-menu .header-menu__container ul ul,
+body .third-header .wrapper .header-menu .header-menu__container ul ul,
+body .fourth-header .wrapper .header-menu .header-menu__container ul ul,
+body .fifth-header .wrapper .header-menu .header-menu__container ul ul,
+body .sixth-header .wrapper .header-menu .header-menu__container ul ul,
+body .seventh-header .wrapper .header-menu .header-menu__container ul ul,
+body .eighth-header .wrapper .header-menu .header-menu__container ul ul {
+  display: none;
+  position: absolute;
+}
+
+html .second-header .wrapper .header-menu .header-menu__container ul li:hover > ul,
+html .third-header .wrapper .header-menu .header-menu__container ul li:hover > ul,
+html .fourth-header .wrapper .header-menu .header-menu__container ul li:hover > ul,
+html .fifth-header .wrapper .header-menu .header-menu__container ul li:hover > ul,
+html .sixth-header .wrapper .header-menu .header-menu__container ul li:hover > ul,
+html .seventh-header .wrapper .header-menu .header-menu__container ul li:hover > ul,
+html .eighth-header .wrapper .header-menu .header-menu__container ul li:hover > ul,
+body .second-header .wrapper .header-menu .header-menu__container ul li:hover > ul,
+body .third-header .wrapper .header-menu .header-menu__container ul li:hover > ul,
+body .fourth-header .wrapper .header-menu .header-menu__container ul li:hover > ul,
+body .fifth-header .wrapper .header-menu .header-menu__container ul li:hover > ul,
+body .sixth-header .wrapper .header-menu .header-menu__container ul li:hover > ul,
+body .seventh-header .wrapper .header-menu .header-menu__container ul li:hover > ul,
+body .eighth-header .wrapper .header-menu .header-menu__container ul li:hover > ul {
+  display: inherit;
+}
+
+html .second-header .wrapper .header-menu .menu-delivery,
+html .third-header .wrapper .header-menu .menu-delivery,
+html .fourth-header .wrapper .header-menu .menu-delivery,
+html .fifth-header .wrapper .header-menu .menu-delivery,
+html .sixth-header .wrapper .header-menu .menu-delivery,
+html .seventh-header .wrapper .header-menu .menu-delivery,
+html .eighth-header .wrapper .header-menu .menu-delivery,
+body .second-header .wrapper .header-menu .menu-delivery,
+body .third-header .wrapper .header-menu .menu-delivery,
+body .fourth-header .wrapper .header-menu .menu-delivery,
+body .fifth-header .wrapper .header-menu .menu-delivery,
+body .sixth-header .wrapper .header-menu .menu-delivery,
+body .seventh-header .wrapper .header-menu .menu-delivery,
+body .eighth-header .wrapper .header-menu .menu-delivery {
+  margin: 5px 56px 0 36px;
+}
+
+html .second-header .wrapper .header-menu .menu-delivery ul li a .button-parcels,
+html .third-header .wrapper .header-menu .menu-delivery ul li a .button-parcels,
+html .fourth-header .wrapper .header-menu .menu-delivery ul li a .button-parcels,
+html .fifth-header .wrapper .header-menu .menu-delivery ul li a .button-parcels,
+html .sixth-header .wrapper .header-menu .menu-delivery ul li a .button-parcels,
+html .seventh-header .wrapper .header-menu .menu-delivery ul li a .button-parcels,
+html .eighth-header .wrapper .header-menu .menu-delivery ul li a .button-parcels,
+body .second-header .wrapper .header-menu .menu-delivery ul li a .button-parcels,
+body .third-header .wrapper .header-menu .menu-delivery ul li a .button-parcels,
+body .fourth-header .wrapper .header-menu .menu-delivery ul li a .button-parcels,
+body .fifth-header .wrapper .header-menu .menu-delivery ul li a .button-parcels,
+body .sixth-header .wrapper .header-menu .menu-delivery ul li a .button-parcels,
+body .seventh-header .wrapper .header-menu .menu-delivery ul li a .button-parcels,
+body .eighth-header .wrapper .header-menu .menu-delivery ul li a .button-parcels {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html .second-header .wrapper .header-menu .menu-delivery ul li a button .circles,
+html .third-header .wrapper .header-menu .menu-delivery ul li a button .circles,
+html .fourth-header .wrapper .header-menu .menu-delivery ul li a button .circles,
+html .fifth-header .wrapper .header-menu .menu-delivery ul li a button .circles,
+html .sixth-header .wrapper .header-menu .menu-delivery ul li a button .circles,
+html .seventh-header .wrapper .header-menu .menu-delivery ul li a button .circles,
+html .eighth-header .wrapper .header-menu .menu-delivery ul li a button .circles,
+body .second-header .wrapper .header-menu .menu-delivery ul li a button .circles,
+body .third-header .wrapper .header-menu .menu-delivery ul li a button .circles,
+body .fourth-header .wrapper .header-menu .menu-delivery ul li a button .circles,
+body .fifth-header .wrapper .header-menu .menu-delivery ul li a button .circles,
+body .sixth-header .wrapper .header-menu .menu-delivery ul li a button .circles,
+body .seventh-header .wrapper .header-menu .menu-delivery ul li a button .circles,
+body .eighth-header .wrapper .header-menu .menu-delivery ul li a button .circles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 18px;
+  margin-top: 8px;
+}
+
+html .second-header .wrapper .header-menu .menu-delivery ul li a button .circles .circle,
+html .third-header .wrapper .header-menu .menu-delivery ul li a button .circles .circle,
+html .fourth-header .wrapper .header-menu .menu-delivery ul li a button .circles .circle,
+html .fifth-header .wrapper .header-menu .menu-delivery ul li a button .circles .circle,
+html .sixth-header .wrapper .header-menu .menu-delivery ul li a button .circles .circle,
+html .seventh-header .wrapper .header-menu .menu-delivery ul li a button .circles .circle,
+html .eighth-header .wrapper .header-menu .menu-delivery ul li a button .circles .circle,
+body .second-header .wrapper .header-menu .menu-delivery ul li a button .circles .circle,
+body .third-header .wrapper .header-menu .menu-delivery ul li a button .circles .circle,
+body .fourth-header .wrapper .header-menu .menu-delivery ul li a button .circles .circle,
+body .fifth-header .wrapper .header-menu .menu-delivery ul li a button .circles .circle,
+body .sixth-header .wrapper .header-menu .menu-delivery ul li a button .circles .circle,
+body .seventh-header .wrapper .header-menu .menu-delivery ul li a button .circles .circle,
+body .eighth-header .wrapper .header-menu .menu-delivery ul li a button .circles .circle {
+  width: 13px;
+  height: 13px;
+  background: #d0d0d0;
+  border-radius: 100%;
+  margin-right: 6px;
+}
+
+html .second-header .wrapper .header-menu .menu-username ul li a button,
+html .third-header .wrapper .header-menu .menu-username ul li a button,
+html .fourth-header .wrapper .header-menu .menu-username ul li a button,
+html .fifth-header .wrapper .header-menu .menu-username ul li a button,
+html .sixth-header .wrapper .header-menu .menu-username ul li a button,
+html .seventh-header .wrapper .header-menu .menu-username ul li a button,
+html .eighth-header .wrapper .header-menu .menu-username ul li a button,
+body .second-header .wrapper .header-menu .menu-username ul li a button,
+body .third-header .wrapper .header-menu .menu-username ul li a button,
+body .fourth-header .wrapper .header-menu .menu-username ul li a button,
+body .fifth-header .wrapper .header-menu .menu-username ul li a button,
+body .sixth-header .wrapper .header-menu .menu-username ul li a button,
+body .seventh-header .wrapper .header-menu .menu-username ul li a button,
+body .eighth-header .wrapper .header-menu .menu-username ul li a button {
+  padding-top: 0;
+}
+
+html .second-header .wrapper .header-menu .menu-username ul li a button .circles,
+html .third-header .wrapper .header-menu .menu-username ul li a button .circles,
+html .fourth-header .wrapper .header-menu .menu-username ul li a button .circles,
+html .fifth-header .wrapper .header-menu .menu-username ul li a button .circles,
+html .sixth-header .wrapper .header-menu .menu-username ul li a button .circles,
+html .seventh-header .wrapper .header-menu .menu-username ul li a button .circles,
+html .eighth-header .wrapper .header-menu .menu-username ul li a button .circles,
+body .second-header .wrapper .header-menu .menu-username ul li a button .circles,
+body .third-header .wrapper .header-menu .menu-username ul li a button .circles,
+body .fourth-header .wrapper .header-menu .menu-username ul li a button .circles,
+body .fifth-header .wrapper .header-menu .menu-username ul li a button .circles,
+body .sixth-header .wrapper .header-menu .menu-username ul li a button .circles,
+body .seventh-header .wrapper .header-menu .menu-username ul li a button .circles,
+body .eighth-header .wrapper .header-menu .menu-username ul li a button .circles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 6px;
+  margin-top: 25px;
+}
+
+html .second-header .wrapper .header-menu .menu-username ul li a button .circles .circle,
+html .third-header .wrapper .header-menu .menu-username ul li a button .circles .circle,
+html .fourth-header .wrapper .header-menu .menu-username ul li a button .circles .circle,
+html .fifth-header .wrapper .header-menu .menu-username ul li a button .circles .circle,
+html .sixth-header .wrapper .header-menu .menu-username ul li a button .circles .circle,
+html .seventh-header .wrapper .header-menu .menu-username ul li a button .circles .circle,
+html .eighth-header .wrapper .header-menu .menu-username ul li a button .circles .circle,
+body .second-header .wrapper .header-menu .menu-username ul li a button .circles .circle,
+body .third-header .wrapper .header-menu .menu-username ul li a button .circles .circle,
+body .fourth-header .wrapper .header-menu .menu-username ul li a button .circles .circle,
+body .fifth-header .wrapper .header-menu .menu-username ul li a button .circles .circle,
+body .sixth-header .wrapper .header-menu .menu-username ul li a button .circles .circle,
+body .seventh-header .wrapper .header-menu .menu-username ul li a button .circles .circle,
+body .eighth-header .wrapper .header-menu .menu-username ul li a button .circles .circle {
+  width: 13px;
+  height: 13px;
+  background: #d0d0d0;
+  border-radius: 100%;
+  margin-right: 6px;
+}
+
+html .second-header .wrapper .header-menu .menu-username ul li a button .username,
+html .third-header .wrapper .header-menu .menu-username ul li a button .username,
+html .fourth-header .wrapper .header-menu .menu-username ul li a button .username,
+html .fifth-header .wrapper .header-menu .menu-username ul li a button .username,
+html .sixth-header .wrapper .header-menu .menu-username ul li a button .username,
+html .seventh-header .wrapper .header-menu .menu-username ul li a button .username,
+html .eighth-header .wrapper .header-menu .menu-username ul li a button .username,
+body .second-header .wrapper .header-menu .menu-username ul li a button .username,
+body .third-header .wrapper .header-menu .menu-username ul li a button .username,
+body .fourth-header .wrapper .header-menu .menu-username ul li a button .username,
+body .fifth-header .wrapper .header-menu .menu-username ul li a button .username,
+body .sixth-header .wrapper .header-menu .menu-username ul li a button .username,
+body .seventh-header .wrapper .header-menu .menu-username ul li a button .username,
+body .eighth-header .wrapper .header-menu .menu-username ul li a button .username {
+  margin: auto;
+}
+
+html .second-header .wrapper .header-menu .menu-username ul li a button .username-img,
+html .third-header .wrapper .header-menu .menu-username ul li a button .username-img,
+html .fourth-header .wrapper .header-menu .menu-username ul li a button .username-img,
+html .fifth-header .wrapper .header-menu .menu-username ul li a button .username-img,
+html .sixth-header .wrapper .header-menu .menu-username ul li a button .username-img,
+html .seventh-header .wrapper .header-menu .menu-username ul li a button .username-img,
+html .eighth-header .wrapper .header-menu .menu-username ul li a button .username-img,
+body .second-header .wrapper .header-menu .menu-username ul li a button .username-img,
+body .third-header .wrapper .header-menu .menu-username ul li a button .username-img,
+body .fourth-header .wrapper .header-menu .menu-username ul li a button .username-img,
+body .fifth-header .wrapper .header-menu .menu-username ul li a button .username-img,
+body .sixth-header .wrapper .header-menu .menu-username ul li a button .username-img,
+body .seventh-header .wrapper .header-menu .menu-username ul li a button .username-img,
+body .eighth-header .wrapper .header-menu .menu-username ul li a button .username-img {
+  width: 42px;
+  height: 42px;
+  background: #d0d0d0;
+  border-radius: 4px;
+  margin: auto;
+  margin-left: 5px;
+}
+
+html .second-header .wrapper .header-menu .menu-delivery,
+html .second-header .wrapper .header-menu .menu-username,
+html .third-header .wrapper .header-menu .menu-delivery,
+html .third-header .wrapper .header-menu .menu-username,
+html .fourth-header .wrapper .header-menu .menu-delivery,
+html .fourth-header .wrapper .header-menu .menu-username,
+html .fifth-header .wrapper .header-menu .menu-delivery,
+html .fifth-header .wrapper .header-menu .menu-username,
+html .sixth-header .wrapper .header-menu .menu-delivery,
+html .sixth-header .wrapper .header-menu .menu-username,
+html .seventh-header .wrapper .header-menu .menu-delivery,
+html .seventh-header .wrapper .header-menu .menu-username,
+html .eighth-header .wrapper .header-menu .menu-delivery,
+html .eighth-header .wrapper .header-menu .menu-username,
+body .second-header .wrapper .header-menu .menu-delivery,
+body .second-header .wrapper .header-menu .menu-username,
+body .third-header .wrapper .header-menu .menu-delivery,
+body .third-header .wrapper .header-menu .menu-username,
+body .fourth-header .wrapper .header-menu .menu-delivery,
+body .fourth-header .wrapper .header-menu .menu-username,
+body .fifth-header .wrapper .header-menu .menu-delivery,
+body .fifth-header .wrapper .header-menu .menu-username,
+body .sixth-header .wrapper .header-menu .menu-delivery,
+body .sixth-header .wrapper .header-menu .menu-username,
+body .seventh-header .wrapper .header-menu .menu-delivery,
+body .seventh-header .wrapper .header-menu .menu-username,
+body .eighth-header .wrapper .header-menu .menu-delivery,
+body .eighth-header .wrapper .header-menu .menu-username {
+  width: 236px;
+}
+
+html .second-header .wrapper .header-menu .menu-delivery ul li,
+html .second-header .wrapper .header-menu .menu-username ul li,
+html .third-header .wrapper .header-menu .menu-delivery ul li,
+html .third-header .wrapper .header-menu .menu-username ul li,
+html .fourth-header .wrapper .header-menu .menu-delivery ul li,
+html .fourth-header .wrapper .header-menu .menu-username ul li,
+html .fifth-header .wrapper .header-menu .menu-delivery ul li,
+html .fifth-header .wrapper .header-menu .menu-username ul li,
+html .sixth-header .wrapper .header-menu .menu-delivery ul li,
+html .sixth-header .wrapper .header-menu .menu-username ul li,
+html .seventh-header .wrapper .header-menu .menu-delivery ul li,
+html .seventh-header .wrapper .header-menu .menu-username ul li,
+html .eighth-header .wrapper .header-menu .menu-delivery ul li,
+html .eighth-header .wrapper .header-menu .menu-username ul li,
+body .second-header .wrapper .header-menu .menu-delivery ul li,
+body .second-header .wrapper .header-menu .menu-username ul li,
+body .third-header .wrapper .header-menu .menu-delivery ul li,
+body .third-header .wrapper .header-menu .menu-username ul li,
+body .fourth-header .wrapper .header-menu .menu-delivery ul li,
+body .fourth-header .wrapper .header-menu .menu-username ul li,
+body .fifth-header .wrapper .header-menu .menu-delivery ul li,
+body .fifth-header .wrapper .header-menu .menu-username ul li,
+body .sixth-header .wrapper .header-menu .menu-delivery ul li,
+body .sixth-header .wrapper .header-menu .menu-username ul li,
+body .seventh-header .wrapper .header-menu .menu-delivery ul li,
+body .seventh-header .wrapper .header-menu .menu-username ul li,
+body .eighth-header .wrapper .header-menu .menu-delivery ul li,
+body .eighth-header .wrapper .header-menu .menu-username ul li {
+  margin: 1px 0;
+}
+
+html .second-header .wrapper .header-menu .menu-delivery ul li a button,
+html .second-header .wrapper .header-menu .menu-username ul li a button,
+html .third-header .wrapper .header-menu .menu-delivery ul li a button,
+html .third-header .wrapper .header-menu .menu-username ul li a button,
+html .fourth-header .wrapper .header-menu .menu-delivery ul li a button,
+html .fourth-header .wrapper .header-menu .menu-username ul li a button,
+html .fifth-header .wrapper .header-menu .menu-delivery ul li a button,
+html .fifth-header .wrapper .header-menu .menu-username ul li a button,
+html .sixth-header .wrapper .header-menu .menu-delivery ul li a button,
+html .sixth-header .wrapper .header-menu .menu-username ul li a button,
+html .seventh-header .wrapper .header-menu .menu-delivery ul li a button,
+html .seventh-header .wrapper .header-menu .menu-username ul li a button,
+html .eighth-header .wrapper .header-menu .menu-delivery ul li a button,
+html .eighth-header .wrapper .header-menu .menu-username ul li a button,
+body .second-header .wrapper .header-menu .menu-delivery ul li a button,
+body .second-header .wrapper .header-menu .menu-username ul li a button,
+body .third-header .wrapper .header-menu .menu-delivery ul li a button,
+body .third-header .wrapper .header-menu .menu-username ul li a button,
+body .fourth-header .wrapper .header-menu .menu-delivery ul li a button,
+body .fourth-header .wrapper .header-menu .menu-username ul li a button,
+body .fifth-header .wrapper .header-menu .menu-delivery ul li a button,
+body .fifth-header .wrapper .header-menu .menu-username ul li a button,
+body .sixth-header .wrapper .header-menu .menu-delivery ul li a button,
+body .sixth-header .wrapper .header-menu .menu-username ul li a button,
+body .seventh-header .wrapper .header-menu .menu-delivery ul li a button,
+body .seventh-header .wrapper .header-menu .menu-username ul li a button,
+body .eighth-header .wrapper .header-menu .menu-delivery ul li a button,
+body .eighth-header .wrapper .header-menu .menu-username ul li a button {
+  width: 236px;
+  height: 47px;
+  background: #e3e3e3;
+}
+
+html .second-header .wrapper .header-menu .menu-delivery ul li a button:hover,
+html .second-header .wrapper .header-menu .menu-username ul li a button:hover,
+html .third-header .wrapper .header-menu .menu-delivery ul li a button:hover,
+html .third-header .wrapper .header-menu .menu-username ul li a button:hover,
+html .fourth-header .wrapper .header-menu .menu-delivery ul li a button:hover,
+html .fourth-header .wrapper .header-menu .menu-username ul li a button:hover,
+html .fifth-header .wrapper .header-menu .menu-delivery ul li a button:hover,
+html .fifth-header .wrapper .header-menu .menu-username ul li a button:hover,
+html .sixth-header .wrapper .header-menu .menu-delivery ul li a button:hover,
+html .sixth-header .wrapper .header-menu .menu-username ul li a button:hover,
+html .seventh-header .wrapper .header-menu .menu-delivery ul li a button:hover,
+html .seventh-header .wrapper .header-menu .menu-username ul li a button:hover,
+html .eighth-header .wrapper .header-menu .menu-delivery ul li a button:hover,
+html .eighth-header .wrapper .header-menu .menu-username ul li a button:hover,
+body .second-header .wrapper .header-menu .menu-delivery ul li a button:hover,
+body .second-header .wrapper .header-menu .menu-username ul li a button:hover,
+body .third-header .wrapper .header-menu .menu-delivery ul li a button:hover,
+body .third-header .wrapper .header-menu .menu-username ul li a button:hover,
+body .fourth-header .wrapper .header-menu .menu-delivery ul li a button:hover,
+body .fourth-header .wrapper .header-menu .menu-username ul li a button:hover,
+body .fifth-header .wrapper .header-menu .menu-delivery ul li a button:hover,
+body .fifth-header .wrapper .header-menu .menu-username ul li a button:hover,
+body .sixth-header .wrapper .header-menu .menu-delivery ul li a button:hover,
+body .sixth-header .wrapper .header-menu .menu-username ul li a button:hover,
+body .seventh-header .wrapper .header-menu .menu-delivery ul li a button:hover,
+body .seventh-header .wrapper .header-menu .menu-username ul li a button:hover,
+body .eighth-header .wrapper .header-menu .menu-delivery ul li a button:hover,
+body .eighth-header .wrapper .header-menu .menu-username ul li a button:hover {
+  cursor: pointer;
+  background: #bebebe;
+  -webkit-transform: scale(1.03);
+      -ms-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 5;
+}
+
+html .second-header .wrapper .header-menu .menu-delivery ul li ul,
+html .second-header .wrapper .header-menu .menu-username ul li ul,
+html .third-header .wrapper .header-menu .menu-delivery ul li ul,
+html .third-header .wrapper .header-menu .menu-username ul li ul,
+html .fourth-header .wrapper .header-menu .menu-delivery ul li ul,
+html .fourth-header .wrapper .header-menu .menu-username ul li ul,
+html .fifth-header .wrapper .header-menu .menu-delivery ul li ul,
+html .fifth-header .wrapper .header-menu .menu-username ul li ul,
+html .sixth-header .wrapper .header-menu .menu-delivery ul li ul,
+html .sixth-header .wrapper .header-menu .menu-username ul li ul,
+html .seventh-header .wrapper .header-menu .menu-delivery ul li ul,
+html .seventh-header .wrapper .header-menu .menu-username ul li ul,
+html .eighth-header .wrapper .header-menu .menu-delivery ul li ul,
+html .eighth-header .wrapper .header-menu .menu-username ul li ul,
+body .second-header .wrapper .header-menu .menu-delivery ul li ul,
+body .second-header .wrapper .header-menu .menu-username ul li ul,
+body .third-header .wrapper .header-menu .menu-delivery ul li ul,
+body .third-header .wrapper .header-menu .menu-username ul li ul,
+body .fourth-header .wrapper .header-menu .menu-delivery ul li ul,
+body .fourth-header .wrapper .header-menu .menu-username ul li ul,
+body .fifth-header .wrapper .header-menu .menu-delivery ul li ul,
+body .fifth-header .wrapper .header-menu .menu-username ul li ul,
+body .sixth-header .wrapper .header-menu .menu-delivery ul li ul,
+body .sixth-header .wrapper .header-menu .menu-username ul li ul,
+body .seventh-header .wrapper .header-menu .menu-delivery ul li ul,
+body .seventh-header .wrapper .header-menu .menu-username ul li ul,
+body .eighth-header .wrapper .header-menu .menu-delivery ul li ul,
+body .eighth-header .wrapper .header-menu .menu-username ul li ul {
+  width: 236px;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+html .second-header .wrapper .header-menu .menu-delivery ul li ul li,
+html .second-header .wrapper .header-menu .menu-username ul li ul li,
+html .third-header .wrapper .header-menu .menu-delivery ul li ul li,
+html .third-header .wrapper .header-menu .menu-username ul li ul li,
+html .fourth-header .wrapper .header-menu .menu-delivery ul li ul li,
+html .fourth-header .wrapper .header-menu .menu-username ul li ul li,
+html .fifth-header .wrapper .header-menu .menu-delivery ul li ul li,
+html .fifth-header .wrapper .header-menu .menu-username ul li ul li,
+html .sixth-header .wrapper .header-menu .menu-delivery ul li ul li,
+html .sixth-header .wrapper .header-menu .menu-username ul li ul li,
+html .seventh-header .wrapper .header-menu .menu-delivery ul li ul li,
+html .seventh-header .wrapper .header-menu .menu-username ul li ul li,
+html .eighth-header .wrapper .header-menu .menu-delivery ul li ul li,
+html .eighth-header .wrapper .header-menu .menu-username ul li ul li,
+body .second-header .wrapper .header-menu .menu-delivery ul li ul li,
+body .second-header .wrapper .header-menu .menu-username ul li ul li,
+body .third-header .wrapper .header-menu .menu-delivery ul li ul li,
+body .third-header .wrapper .header-menu .menu-username ul li ul li,
+body .fourth-header .wrapper .header-menu .menu-delivery ul li ul li,
+body .fourth-header .wrapper .header-menu .menu-username ul li ul li,
+body .fifth-header .wrapper .header-menu .menu-delivery ul li ul li,
+body .fifth-header .wrapper .header-menu .menu-username ul li ul li,
+body .sixth-header .wrapper .header-menu .menu-delivery ul li ul li,
+body .sixth-header .wrapper .header-menu .menu-username ul li ul li,
+body .seventh-header .wrapper .header-menu .menu-delivery ul li ul li,
+body .seventh-header .wrapper .header-menu .menu-username ul li ul li,
+body .eighth-header .wrapper .header-menu .menu-delivery ul li ul li,
+body .eighth-header .wrapper .header-menu .menu-username ul li ul li {
+  background: #b4b3b3;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 230px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+html .second-header .wrapper .header-menu .menu-delivery ul li ul li a,
+html .second-header .wrapper .header-menu .menu-username ul li ul li a,
+html .third-header .wrapper .header-menu .menu-delivery ul li ul li a,
+html .third-header .wrapper .header-menu .menu-username ul li ul li a,
+html .fourth-header .wrapper .header-menu .menu-delivery ul li ul li a,
+html .fourth-header .wrapper .header-menu .menu-username ul li ul li a,
+html .fifth-header .wrapper .header-menu .menu-delivery ul li ul li a,
+html .fifth-header .wrapper .header-menu .menu-username ul li ul li a,
+html .sixth-header .wrapper .header-menu .menu-delivery ul li ul li a,
+html .sixth-header .wrapper .header-menu .menu-username ul li ul li a,
+html .seventh-header .wrapper .header-menu .menu-delivery ul li ul li a,
+html .seventh-header .wrapper .header-menu .menu-username ul li ul li a,
+html .eighth-header .wrapper .header-menu .menu-delivery ul li ul li a,
+html .eighth-header .wrapper .header-menu .menu-username ul li ul li a,
+body .second-header .wrapper .header-menu .menu-delivery ul li ul li a,
+body .second-header .wrapper .header-menu .menu-username ul li ul li a,
+body .third-header .wrapper .header-menu .menu-delivery ul li ul li a,
+body .third-header .wrapper .header-menu .menu-username ul li ul li a,
+body .fourth-header .wrapper .header-menu .menu-delivery ul li ul li a,
+body .fourth-header .wrapper .header-menu .menu-username ul li ul li a,
+body .fifth-header .wrapper .header-menu .menu-delivery ul li ul li a,
+body .fifth-header .wrapper .header-menu .menu-username ul li ul li a,
+body .sixth-header .wrapper .header-menu .menu-delivery ul li ul li a,
+body .sixth-header .wrapper .header-menu .menu-username ul li ul li a,
+body .seventh-header .wrapper .header-menu .menu-delivery ul li ul li a,
+body .seventh-header .wrapper .header-menu .menu-username ul li ul li a,
+body .eighth-header .wrapper .header-menu .menu-delivery ul li ul li a,
+body .eighth-header .wrapper .header-menu .menu-username ul li ul li a {
+  text-align: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 auto;
+}
+
+html .second-header .wrapper .header-menu .menu-delivery ul li ul li a button,
+html .second-header .wrapper .header-menu .menu-username ul li ul li a button,
+html .third-header .wrapper .header-menu .menu-delivery ul li ul li a button,
+html .third-header .wrapper .header-menu .menu-username ul li ul li a button,
+html .fourth-header .wrapper .header-menu .menu-delivery ul li ul li a button,
+html .fourth-header .wrapper .header-menu .menu-username ul li ul li a button,
+html .fifth-header .wrapper .header-menu .menu-delivery ul li ul li a button,
+html .fifth-header .wrapper .header-menu .menu-username ul li ul li a button,
+html .sixth-header .wrapper .header-menu .menu-delivery ul li ul li a button,
+html .sixth-header .wrapper .header-menu .menu-username ul li ul li a button,
+html .seventh-header .wrapper .header-menu .menu-delivery ul li ul li a button,
+html .seventh-header .wrapper .header-menu .menu-username ul li ul li a button,
+html .eighth-header .wrapper .header-menu .menu-delivery ul li ul li a button,
+html .eighth-header .wrapper .header-menu .menu-username ul li ul li a button,
+body .second-header .wrapper .header-menu .menu-delivery ul li ul li a button,
+body .second-header .wrapper .header-menu .menu-username ul li ul li a button,
+body .third-header .wrapper .header-menu .menu-delivery ul li ul li a button,
+body .third-header .wrapper .header-menu .menu-username ul li ul li a button,
+body .fourth-header .wrapper .header-menu .menu-delivery ul li ul li a button,
+body .fourth-header .wrapper .header-menu .menu-username ul li ul li a button,
+body .fifth-header .wrapper .header-menu .menu-delivery ul li ul li a button,
+body .fifth-header .wrapper .header-menu .menu-username ul li ul li a button,
+body .sixth-header .wrapper .header-menu .menu-delivery ul li ul li a button,
+body .sixth-header .wrapper .header-menu .menu-username ul li ul li a button,
+body .seventh-header .wrapper .header-menu .menu-delivery ul li ul li a button,
+body .seventh-header .wrapper .header-menu .menu-username ul li ul li a button,
+body .eighth-header .wrapper .header-menu .menu-delivery ul li ul li a button,
+body .eighth-header .wrapper .header-menu .menu-username ul li ul li a button {
+  width: 220px;
+  margin: 1px 0;
+  text-align: center;
+  height: 36px;
+  background: #ebebeb;
+  border-radius: 4px;
+}
+
+html .second-header .wrapper .header-menu .menu-delivery ul li ul li .red-button,
+html .second-header .wrapper .header-menu .menu-username ul li ul li .red-button,
+html .third-header .wrapper .header-menu .menu-delivery ul li ul li .red-button,
+html .third-header .wrapper .header-menu .menu-username ul li ul li .red-button,
+html .fourth-header .wrapper .header-menu .menu-delivery ul li ul li .red-button,
+html .fourth-header .wrapper .header-menu .menu-username ul li ul li .red-button,
+html .fifth-header .wrapper .header-menu .menu-delivery ul li ul li .red-button,
+html .fifth-header .wrapper .header-menu .menu-username ul li ul li .red-button,
+html .sixth-header .wrapper .header-menu .menu-delivery ul li ul li .red-button,
+html .sixth-header .wrapper .header-menu .menu-username ul li ul li .red-button,
+html .seventh-header .wrapper .header-menu .menu-delivery ul li ul li .red-button,
+html .seventh-header .wrapper .header-menu .menu-username ul li ul li .red-button,
+html .eighth-header .wrapper .header-menu .menu-delivery ul li ul li .red-button,
+html .eighth-header .wrapper .header-menu .menu-username ul li ul li .red-button,
+body .second-header .wrapper .header-menu .menu-delivery ul li ul li .red-button,
+body .second-header .wrapper .header-menu .menu-username ul li ul li .red-button,
+body .third-header .wrapper .header-menu .menu-delivery ul li ul li .red-button,
+body .third-header .wrapper .header-menu .menu-username ul li ul li .red-button,
+body .fourth-header .wrapper .header-menu .menu-delivery ul li ul li .red-button,
+body .fourth-header .wrapper .header-menu .menu-username ul li ul li .red-button,
+body .fifth-header .wrapper .header-menu .menu-delivery ul li ul li .red-button,
+body .fifth-header .wrapper .header-menu .menu-username ul li ul li .red-button,
+body .sixth-header .wrapper .header-menu .menu-delivery ul li ul li .red-button,
+body .sixth-header .wrapper .header-menu .menu-username ul li ul li .red-button,
+body .seventh-header .wrapper .header-menu .menu-delivery ul li ul li .red-button,
+body .seventh-header .wrapper .header-menu .menu-username ul li ul li .red-button,
+body .eighth-header .wrapper .header-menu .menu-delivery ul li ul li .red-button,
+body .eighth-header .wrapper .header-menu .menu-username ul li ul li .red-button {
+  background: #faa0a0;
+}
+
+html .second-header .wrapper .header-menu .menu-delivery ul li ul li .red-button:hover,
+html .second-header .wrapper .header-menu .menu-username ul li ul li .red-button:hover,
+html .third-header .wrapper .header-menu .menu-delivery ul li ul li .red-button:hover,
+html .third-header .wrapper .header-menu .menu-username ul li ul li .red-button:hover,
+html .fourth-header .wrapper .header-menu .menu-delivery ul li ul li .red-button:hover,
+html .fourth-header .wrapper .header-menu .menu-username ul li ul li .red-button:hover,
+html .fifth-header .wrapper .header-menu .menu-delivery ul li ul li .red-button:hover,
+html .fifth-header .wrapper .header-menu .menu-username ul li ul li .red-button:hover,
+html .sixth-header .wrapper .header-menu .menu-delivery ul li ul li .red-button:hover,
+html .sixth-header .wrapper .header-menu .menu-username ul li ul li .red-button:hover,
+html .seventh-header .wrapper .header-menu .menu-delivery ul li ul li .red-button:hover,
+html .seventh-header .wrapper .header-menu .menu-username ul li ul li .red-button:hover,
+html .eighth-header .wrapper .header-menu .menu-delivery ul li ul li .red-button:hover,
+html .eighth-header .wrapper .header-menu .menu-username ul li ul li .red-button:hover,
+body .second-header .wrapper .header-menu .menu-delivery ul li ul li .red-button:hover,
+body .second-header .wrapper .header-menu .menu-username ul li ul li .red-button:hover,
+body .third-header .wrapper .header-menu .menu-delivery ul li ul li .red-button:hover,
+body .third-header .wrapper .header-menu .menu-username ul li ul li .red-button:hover,
+body .fourth-header .wrapper .header-menu .menu-delivery ul li ul li .red-button:hover,
+body .fourth-header .wrapper .header-menu .menu-username ul li ul li .red-button:hover,
+body .fifth-header .wrapper .header-menu .menu-delivery ul li ul li .red-button:hover,
+body .fifth-header .wrapper .header-menu .menu-username ul li ul li .red-button:hover,
+body .sixth-header .wrapper .header-menu .menu-delivery ul li ul li .red-button:hover,
+body .sixth-header .wrapper .header-menu .menu-username ul li ul li .red-button:hover,
+body .seventh-header .wrapper .header-menu .menu-delivery ul li ul li .red-button:hover,
+body .seventh-header .wrapper .header-menu .menu-username ul li ul li .red-button:hover,
+body .eighth-header .wrapper .header-menu .menu-delivery ul li ul li .red-button:hover,
+body .eighth-header .wrapper .header-menu .menu-username ul li ul li .red-button:hover {
+  background: #bb8282;
+}
+
+html .second-header .wrapper .header-menu .menu-delivery ul ul,
+html .second-header .wrapper .header-menu .menu-username ul ul,
+html .third-header .wrapper .header-menu .menu-delivery ul ul,
+html .third-header .wrapper .header-menu .menu-username ul ul,
+html .fourth-header .wrapper .header-menu .menu-delivery ul ul,
+html .fourth-header .wrapper .header-menu .menu-username ul ul,
+html .fifth-header .wrapper .header-menu .menu-delivery ul ul,
+html .fifth-header .wrapper .header-menu .menu-username ul ul,
+html .sixth-header .wrapper .header-menu .menu-delivery ul ul,
+html .sixth-header .wrapper .header-menu .menu-username ul ul,
+html .seventh-header .wrapper .header-menu .menu-delivery ul ul,
+html .seventh-header .wrapper .header-menu .menu-username ul ul,
+html .eighth-header .wrapper .header-menu .menu-delivery ul ul,
+html .eighth-header .wrapper .header-menu .menu-username ul ul,
+body .second-header .wrapper .header-menu .menu-delivery ul ul,
+body .second-header .wrapper .header-menu .menu-username ul ul,
+body .third-header .wrapper .header-menu .menu-delivery ul ul,
+body .third-header .wrapper .header-menu .menu-username ul ul,
+body .fourth-header .wrapper .header-menu .menu-delivery ul ul,
+body .fourth-header .wrapper .header-menu .menu-username ul ul,
+body .fifth-header .wrapper .header-menu .menu-delivery ul ul,
+body .fifth-header .wrapper .header-menu .menu-username ul ul,
+body .sixth-header .wrapper .header-menu .menu-delivery ul ul,
+body .sixth-header .wrapper .header-menu .menu-username ul ul,
+body .seventh-header .wrapper .header-menu .menu-delivery ul ul,
+body .seventh-header .wrapper .header-menu .menu-username ul ul,
+body .eighth-header .wrapper .header-menu .menu-delivery ul ul,
+body .eighth-header .wrapper .header-menu .menu-username ul ul {
+  display: none;
+  position: absolute;
+}
+
+html .second-header .wrapper .header-menu .menu-delivery ul li:hover > ul,
+html .second-header .wrapper .header-menu .menu-username ul li:hover > ul,
+html .third-header .wrapper .header-menu .menu-delivery ul li:hover > ul,
+html .third-header .wrapper .header-menu .menu-username ul li:hover > ul,
+html .fourth-header .wrapper .header-menu .menu-delivery ul li:hover > ul,
+html .fourth-header .wrapper .header-menu .menu-username ul li:hover > ul,
+html .fifth-header .wrapper .header-menu .menu-delivery ul li:hover > ul,
+html .fifth-header .wrapper .header-menu .menu-username ul li:hover > ul,
+html .sixth-header .wrapper .header-menu .menu-delivery ul li:hover > ul,
+html .sixth-header .wrapper .header-menu .menu-username ul li:hover > ul,
+html .seventh-header .wrapper .header-menu .menu-delivery ul li:hover > ul,
+html .seventh-header .wrapper .header-menu .menu-username ul li:hover > ul,
+html .eighth-header .wrapper .header-menu .menu-delivery ul li:hover > ul,
+html .eighth-header .wrapper .header-menu .menu-username ul li:hover > ul,
+body .second-header .wrapper .header-menu .menu-delivery ul li:hover > ul,
+body .second-header .wrapper .header-menu .menu-username ul li:hover > ul,
+body .third-header .wrapper .header-menu .menu-delivery ul li:hover > ul,
+body .third-header .wrapper .header-menu .menu-username ul li:hover > ul,
+body .fourth-header .wrapper .header-menu .menu-delivery ul li:hover > ul,
+body .fourth-header .wrapper .header-menu .menu-username ul li:hover > ul,
+body .fifth-header .wrapper .header-menu .menu-delivery ul li:hover > ul,
+body .fifth-header .wrapper .header-menu .menu-username ul li:hover > ul,
+body .sixth-header .wrapper .header-menu .menu-delivery ul li:hover > ul,
+body .sixth-header .wrapper .header-menu .menu-username ul li:hover > ul,
+body .seventh-header .wrapper .header-menu .menu-delivery ul li:hover > ul,
+body .seventh-header .wrapper .header-menu .menu-username ul li:hover > ul,
+body .eighth-header .wrapper .header-menu .menu-delivery ul li:hover > ul,
+body .eighth-header .wrapper .header-menu .menu-username ul li:hover > ul {
+  display: inherit;
+}
+
+html .third-header .wrapper .header-menu .menu-username ul li ul .open a button,
+body .third-header .wrapper .header-menu .menu-username ul li ul .open a button {
+  background: #bebebe;
+}
+
+html .third-header .wrapper .header-menu .menu-username ul li ul .open a button:hover,
+body .third-header .wrapper .header-menu .menu-username ul li ul .open a button:hover {
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+html .fourth-header .wrapper .header-menu .menu-username ul li ul .close a button,
+body .fourth-header .wrapper .header-menu .menu-username ul li ul .close a button {
+  background: #bebebe;
+}
+
+html .fourth-header .wrapper .header-menu .menu-username ul li ul .close a button:hover,
+body .fourth-header .wrapper .header-menu .menu-username ul li ul .close a button:hover {
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+html .fifth-header .wrapper .header-menu .menu-delivery ul .arrival a button,
+body .fifth-header .wrapper .header-menu .menu-delivery ul .arrival a button {
+  background: #bebebe;
+}
+
+html .fifth-header .wrapper .header-menu .menu-delivery ul .arrival a button:hover,
+body .fifth-header .wrapper .header-menu .menu-delivery ul .arrival a button:hover {
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+html .sixth-header .wrapper .header-menu .menu-delivery ul .leaving a button,
+body .sixth-header .wrapper .header-menu .menu-delivery ul .leaving a button {
+  background: #bebebe;
+}
+
+html .sixth-header .wrapper .header-menu .menu-delivery ul .leaving a button:hover,
+body .sixth-header .wrapper .header-menu .menu-delivery ul .leaving a button:hover {
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+html .seventh-header .wrapper .header-menu .menu-parcels ul .parcels-stock a button,
+body .seventh-header .wrapper .header-menu .menu-parcels ul .parcels-stock a button {
+  background: #bebebe;
+}
+
+html .seventh-header .wrapper .header-menu .menu-parcels ul .parcels-stock a button:hover,
+body .seventh-header .wrapper .header-menu .menu-parcels ul .parcels-stock a button:hover {
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+html .eighth-header .wrapper .header-menu .menu-parcels ul .create-invoice a button,
+body .eighth-header .wrapper .header-menu .menu-parcels ul .create-invoice a button {
+  background: #bebebe;
+}
+
+html .eighth-header .wrapper .header-menu .menu-parcels ul .create-invoice a button:hover,
+body .eighth-header .wrapper .header-menu .menu-parcels ul .create-invoice a button:hover {
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+html main .sing-in__buttons,
+body main .sing-in__buttons {
+  margin-top: 65px;
+  width: 281px;
+  height: 41px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+html main .sing-in__buttons .sing-in__button_reset,
+body main .sing-in__buttons .sing-in__button_reset {
+  width: 50%;
+  height: 41px;
+  color: #217cff;
+  background: #d0d0d0;
+  font-size: 18px;
+  line-height: 21px;
+  margin-right: 6px;
+}
+
+html main .sing-in__buttons .sing-in__button_reset:hover,
+body main .sing-in__buttons .sing-in__button_reset:hover {
+  background: #afafaf;
+}
+
+html main .sing-in__buttons .sing-in__button_reset:active,
+body main .sing-in__buttons .sing-in__button_reset:active {
+  background: #a2a1a1;
+}
+
+html main .sing-in__buttons .sing-in__button_submit,
+body main .sing-in__buttons .sing-in__button_submit {
+  width: 50%;
+  height: 41px;
+  color: black;
+  background: #80b3fc;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+html main .sing-in__buttons .sing-in__button_submit:hover,
+body main .sing-in__buttons .sing-in__button_submit:hover {
+  background: #76a3e2;
+}
+
+html main .sing-in__buttons .sing-in__button_submit:active,
+body main .sing-in__buttons .sing-in__button_submit:active {
+  background: #6b94ce;
+}
+
+html main .first-screen .wrapper .first-screen__container,
+body main .first-screen .wrapper .first-screen__container {
+  width: 500px;
+  height: 539px;
+  margin: 20px auto;
+  background: #c4c4c4;
+  text-align: center;
+}
+
+html main .first-screen .wrapper .first-screen__container .container__title,
+body main .first-screen .wrapper .first-screen__container .container__title {
+  font-size: 48px;
+  line-height: 56px;
+  padding-top: 79px;
+  padding-bottom: 54px;
+}
+
+html main .first-screen .wrapper .first-screen__container form,
+body main .first-screen .wrapper .first-screen__container form {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  margin: 0 auto;
+}
+
+html main .first-screen .wrapper .first-screen__container form input,
+body main .first-screen .wrapper .first-screen__container form input {
+  width: 251px;
+  height: 56px;
+  background: #f1f1f1;
+  padding-left: 30px;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 44px;
+}
+
+html main .first-screen .wrapper .first-screen__container form input::-webkit-input-placeholder, body main .first-screen .wrapper .first-screen__container form input::-webkit-input-placeholder {
+  color: #afafaf;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+html main .first-screen .wrapper .first-screen__container form input::-moz-placeholder, body main .first-screen .wrapper .first-screen__container form input::-moz-placeholder {
+  color: #afafaf;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+html main .first-screen .wrapper .first-screen__container form input:-ms-input-placeholder, body main .first-screen .wrapper .first-screen__container form input:-ms-input-placeholder {
+  color: #afafaf;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+html main .first-screen .wrapper .first-screen__container form input::-ms-input-placeholder, body main .first-screen .wrapper .first-screen__container form input::-ms-input-placeholder {
+  color: #afafaf;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+html main .first-screen .wrapper .first-screen__container form input::placeholder,
+body main .first-screen .wrapper .first-screen__container form input::placeholder {
+  color: #afafaf;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+html main .second-screen .wrapper,
+body main .second-screen .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html main .second-screen .wrapper .second-screen__sidebar,
+body main .second-screen .wrapper .second-screen__sidebar {
+  position: relative;
+  width: 400px;
+  background: #ececec;
+  -webkit-box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+  height: 100vh;
+}
+
+html main .second-screen .wrapper .content,
+body main .second-screen .wrapper .content {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+html main .second-screen .wrapper .second-screen__content,
+body main .second-screen .wrapper .second-screen__content {
+  margin: auto;
+}
+
+html main .second-screen .wrapper .second-screen__content .inner-wrapper .center-warning,
+body main .second-screen .wrapper .second-screen__content .inner-wrapper .center-warning {
+  font-size: 24px;
+  line-height: 28px;
+  color: #969696;
+}
+
+html main .third-screen .wrapper,
+body main .third-screen .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html main .third-screen .wrapper .third-screen__sidebar,
+body main .third-screen .wrapper .third-screen__sidebar {
+  position: relative;
+  width: 400px;
+  background: #ececec;
+  -webkit-box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+  height: 100vh;
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+html main .third-screen .wrapper .third-screen__sidebar .sidebar__title,
+body main .third-screen .wrapper .third-screen__sidebar .sidebar__title {
+  margin: 33px 0 20px 24px;
+}
+
+html main .third-screen .wrapper .third-screen__sidebar .sidebar__block,
+body main .third-screen .wrapper .third-screen__sidebar .sidebar__block {
+  width: 287px;
+  height: 350px;
+  background: #c4c4c4;
+  margin: 0 7px;
+}
+
+html main .third-screen .wrapper .third-screen__sidebar .sidebar__block .block__title,
+body main .third-screen .wrapper .third-screen__sidebar .sidebar__block .block__title {
+  padding: 10px 0 5px 17px;
+}
+
+html main .third-screen .wrapper .third-screen__sidebar .sidebar__block .data__col,
+body main .third-screen .wrapper .third-screen__sidebar .sidebar__block .data__col {
+  margin: 0 3px;
+}
+
+html main .third-screen .wrapper .third-screen__sidebar .sidebar__block .data__col .data__row,
+body main .third-screen .wrapper .third-screen__sidebar .sidebar__block .data__col .data__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  height: 17px;
+  background: #e3e3e3;
+  padding: 6px 5px;
+  margin-bottom: 5px;
+}
+
+html main .third-screen .wrapper .third-screen__sidebar .sidebar__block .data__col .data__row .data,
+body main .third-screen .wrapper .third-screen__sidebar .sidebar__block .data__col .data__row .data {
+  min-width: 130px;
+}
+
+html main .third-screen .wrapper .third-screen__content,
+body main .third-screen .wrapper .third-screen__content {
+  width: 100%;
+  background: #f9f9f9;
+  -webkit-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+  margin: 10px;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html main .third-screen .wrapper .third-screen__content .change__block,
+body main .third-screen .wrapper .third-screen__content .change__block {
+  margin: 13px 17px 20px 20px;
+  width: 100%;
+}
+
+html main .third-screen .wrapper .third-screen__content .change__block .change__title,
+body main .third-screen .wrapper .third-screen__content .change__block .change__title {
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0 0 11px 16px;
+}
+
+html main .third-screen .wrapper .third-screen__content .change__block .wrapper,
+body main .third-screen .wrapper .third-screen__content .change__block .wrapper {
+  display: block;
+  width: 100%;
+  background: #e3e3e3;
+  padding-bottom: 1px;
+}
+
+html main .third-screen .wrapper .third-screen__content .change__block .wrapper .head-title,
+body main .third-screen .wrapper .third-screen__content .change__block .wrapper .head-title {
+  font-size: 24px;
+  line-height: 28px;
+  padding: 7px 31px;
+}
+
+html main .third-screen .wrapper .third-screen__content .change__block .wrapper .change__container,
+body main .third-screen .wrapper .third-screen__content .change__block .wrapper .change__container {
+  max-width: 100%;
+  height: 386px;
+  background: #ffffff;
+  -webkit-box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  margin: 10px;
+}
+
+html main .third-screen .wrapper .third-screen__content .change__block .bad-condition,
+body main .third-screen .wrapper .third-screen__content .change__block .bad-condition {
+  width: 435px;
+  height: 41px;
+  background: #faa0a0;
+  margin: 20px;
+  margin-left: 0;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+html main .third-screen .wrapper .third-screen__content .change__block .bad-condition:hover,
+body main .third-screen .wrapper .third-screen__content .change__block .bad-condition:hover {
+  background: #d88a8a;
+}
+
+html main .third-screen .wrapper .third-screen__content .change__block .bad-condition:active,
+body main .third-screen .wrapper .third-screen__content .change__block .bad-condition:active {
+  background: #ae7979;
+}
+
+html main .third-screen .wrapper .third-screen__content .auto-data__block,
+body main .third-screen .wrapper .third-screen__content .auto-data__block {
+  width: 281px;
+  margin: 13px 32px 0 0;
+}
+
+html main .third-screen .wrapper .third-screen__content .auto-data__block .auto-data__title,
+body main .third-screen .wrapper .third-screen__content .auto-data__block .auto-data__title {
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0 0 11px 16px;
+}
+
+html main .third-screen .wrapper .third-screen__content .auto-data__block form input,
+body main .third-screen .wrapper .third-screen__content .auto-data__block form input {
+  width: 84%;
+  height: 33px;
+  background: #f4f4f4;
+  -webkit-box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  font-size: 24px;
+  line-height: 28px;
+  padding-left: 19px;
+  margin-bottom: 7px;
+  border-top: 5px solid #e3e3e3;
+  border-bottom: 5px solid #e3e3e3;
+  border-left: 10px solid #e3e3e3;
+  border-right: 10px solid #e3e3e3;
+}
+
+html main .third-screen .wrapper .third-screen__content .auto-data__block form input::-webkit-input-placeholder, html main .third-screen .wrapper .third-screen__content .auto-data__block form textarea::-webkit-input-placeholder, body main .third-screen .wrapper .third-screen__content .auto-data__block form input::-webkit-input-placeholder, body main .third-screen .wrapper .third-screen__content .auto-data__block form textarea::-webkit-input-placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .third-screen .wrapper .third-screen__content .auto-data__block form input::-moz-placeholder, html main .third-screen .wrapper .third-screen__content .auto-data__block form textarea::-moz-placeholder, body main .third-screen .wrapper .third-screen__content .auto-data__block form input::-moz-placeholder, body main .third-screen .wrapper .third-screen__content .auto-data__block form textarea::-moz-placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .third-screen .wrapper .third-screen__content .auto-data__block form input:-ms-input-placeholder, html main .third-screen .wrapper .third-screen__content .auto-data__block form textarea:-ms-input-placeholder, body main .third-screen .wrapper .third-screen__content .auto-data__block form input:-ms-input-placeholder, body main .third-screen .wrapper .third-screen__content .auto-data__block form textarea:-ms-input-placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .third-screen .wrapper .third-screen__content .auto-data__block form input::-ms-input-placeholder, html main .third-screen .wrapper .third-screen__content .auto-data__block form textarea::-ms-input-placeholder, body main .third-screen .wrapper .third-screen__content .auto-data__block form input::-ms-input-placeholder, body main .third-screen .wrapper .third-screen__content .auto-data__block form textarea::-ms-input-placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .third-screen .wrapper .third-screen__content .auto-data__block form input::placeholder,
+html main .third-screen .wrapper .third-screen__content .auto-data__block form textarea::placeholder,
+body main .third-screen .wrapper .third-screen__content .auto-data__block form input::placeholder,
+body main .third-screen .wrapper .third-screen__content .auto-data__block form textarea::placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .third-screen .wrapper .third-screen__content .auto-data__block form textarea,
+body main .third-screen .wrapper .third-screen__content .auto-data__block form textarea {
+  width: 77%;
+  height: 225px;
+  font-size: 24px;
+  padding: 0 19px;
+  margin-top: 6px;
+  line-height: 28px;
+  background: #f4f4f4;
+  border-top: 5px solid #e3e3e3;
+  border-bottom: 5px solid #e3e3e3;
+  border-left: 10px solid #e3e3e3;
+  border-right: 10px solid #e3e3e3;
+  -webkit-box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+html main .third-screen .wrapper .third-screen__content .sing-in__buttons,
+body main .third-screen .wrapper .third-screen__content .sing-in__buttons {
+  margin-top: 18px;
+}
+
+html main .fourth-screen .wrapper,
+body main .fourth-screen .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__sidebar,
+body main .fourth-screen .wrapper .fourth-screen__sidebar {
+  position: relative;
+  width: 400px;
+  background: #ececec;
+  -webkit-box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+  height: 100vh;
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__sidebar .sidebar__title,
+body main .fourth-screen .wrapper .fourth-screen__sidebar .sidebar__title {
+  margin: 33px 0 20px 24px;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__sidebar .sidebar__block,
+body main .fourth-screen .wrapper .fourth-screen__sidebar .sidebar__block {
+  width: 287px;
+  height: 350px;
+  background: #c4c4c4;
+  margin: 0 7px;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__sidebar .sidebar__block .block__title,
+body main .fourth-screen .wrapper .fourth-screen__sidebar .sidebar__block .block__title {
+  padding: 10px 0 5px 17px;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__sidebar .sidebar__block .data__col,
+body main .fourth-screen .wrapper .fourth-screen__sidebar .sidebar__block .data__col {
+  margin: 0 3px;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__sidebar .sidebar__block .data__col .data__row,
+body main .fourth-screen .wrapper .fourth-screen__sidebar .sidebar__block .data__col .data__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  height: 17px;
+  background: #e3e3e3;
+  padding: 6px 5px;
+  margin-bottom: 5px;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__sidebar .sidebar__block .data__col .data__row .data,
+body main .fourth-screen .wrapper .fourth-screen__sidebar .sidebar__block .data__col .data__row .data {
+  min-width: 130px;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__content,
+body main .fourth-screen .wrapper .fourth-screen__content {
+  width: 100%;
+  background: #f9f9f9;
+  -webkit-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+  margin: 10px;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__content .change__block,
+body main .fourth-screen .wrapper .fourth-screen__content .change__block {
+  margin: 13px 17px 20px 20px;
+  width: 100%;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__content .change__block .change__title,
+body main .fourth-screen .wrapper .fourth-screen__content .change__block .change__title {
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0 0 11px 16px;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__content .change__block .wrapper,
+body main .fourth-screen .wrapper .fourth-screen__content .change__block .wrapper {
+  display: block;
+  width: 100%;
+  background: #e3e3e3;
+  padding-bottom: 1px;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__content .change__block .wrapper .head-title,
+body main .fourth-screen .wrapper .fourth-screen__content .change__block .wrapper .head-title {
+  font-size: 24px;
+  line-height: 28px;
+  padding: 7px 31px;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__content .change__block .wrapper .change__container,
+body main .fourth-screen .wrapper .fourth-screen__content .change__block .wrapper .change__container {
+  max-width: 100%;
+  height: 386px;
+  background: #ffffff;
+  -webkit-box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  margin: 10px;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__content .change__block .bad-condition,
+body main .fourth-screen .wrapper .fourth-screen__content .change__block .bad-condition {
+  width: 435px;
+  height: 41px;
+  background: #faa0a0;
+  margin: 20px;
+  margin-left: 0;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__content .change__block .bad-condition:hover,
+body main .fourth-screen .wrapper .fourth-screen__content .change__block .bad-condition:hover {
+  background: #d88a8a;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__content .change__block .bad-condition:active,
+body main .fourth-screen .wrapper .fourth-screen__content .change__block .bad-condition:active {
+  background: #ae7979;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__content .auto-data__block,
+body main .fourth-screen .wrapper .fourth-screen__content .auto-data__block {
+  width: 281px;
+  margin: 13px 32px 0 0;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__content .auto-data__block .auto-data__title,
+body main .fourth-screen .wrapper .fourth-screen__content .auto-data__block .auto-data__title {
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0 0 11px 16px;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__content .auto-data__block form input,
+body main .fourth-screen .wrapper .fourth-screen__content .auto-data__block form input {
+  width: 84%;
+  height: 33px;
+  background: #f4f4f4;
+  -webkit-box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  font-size: 24px;
+  line-height: 28px;
+  padding-left: 19px;
+  margin-bottom: 7px;
+  border-top: 5px solid #e3e3e3;
+  border-bottom: 5px solid #e3e3e3;
+  border-left: 10px solid #e3e3e3;
+  border-right: 10px solid #e3e3e3;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__content .auto-data__block form input::-webkit-input-placeholder, html main .fourth-screen .wrapper .fourth-screen__content .auto-data__block form textarea::-webkit-input-placeholder, body main .fourth-screen .wrapper .fourth-screen__content .auto-data__block form input::-webkit-input-placeholder, body main .fourth-screen .wrapper .fourth-screen__content .auto-data__block form textarea::-webkit-input-placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__content .auto-data__block form input::-moz-placeholder, html main .fourth-screen .wrapper .fourth-screen__content .auto-data__block form textarea::-moz-placeholder, body main .fourth-screen .wrapper .fourth-screen__content .auto-data__block form input::-moz-placeholder, body main .fourth-screen .wrapper .fourth-screen__content .auto-data__block form textarea::-moz-placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__content .auto-data__block form input:-ms-input-placeholder, html main .fourth-screen .wrapper .fourth-screen__content .auto-data__block form textarea:-ms-input-placeholder, body main .fourth-screen .wrapper .fourth-screen__content .auto-data__block form input:-ms-input-placeholder, body main .fourth-screen .wrapper .fourth-screen__content .auto-data__block form textarea:-ms-input-placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__content .auto-data__block form input::-ms-input-placeholder, html main .fourth-screen .wrapper .fourth-screen__content .auto-data__block form textarea::-ms-input-placeholder, body main .fourth-screen .wrapper .fourth-screen__content .auto-data__block form input::-ms-input-placeholder, body main .fourth-screen .wrapper .fourth-screen__content .auto-data__block form textarea::-ms-input-placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__content .auto-data__block form input::placeholder,
+html main .fourth-screen .wrapper .fourth-screen__content .auto-data__block form textarea::placeholder,
+body main .fourth-screen .wrapper .fourth-screen__content .auto-data__block form input::placeholder,
+body main .fourth-screen .wrapper .fourth-screen__content .auto-data__block form textarea::placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .fourth-screen .wrapper .fourth-screen__content .auto-data__block form textarea,
+body main .fourth-screen .wrapper .fourth-screen__content .auto-data__block form textarea {
+  width: 77%;
+  height: 225px;
+  font-size: 24px;
+  padding: 0 19px;
+  margin-top: 6px;
+  line-height: 28px;
+  background: #f4f4f4;
+  border-top: 5px solid #e3e3e3;
+  border-bottom: 5px solid #e3e3e3;
+  border-left: 10px solid #e3e3e3;
+  border-right: 10px solid #e3e3e3;
+  -webkit-box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+html main .fourth-screen .wrapper .fourth-screen__content .sing-in__buttons,
+body main .fourth-screen .wrapper .fourth-screen__content .sing-in__buttons {
+  margin-top: 18px;
+}
+
+html main .fifth-screen .wrapper,
+body main .fifth-screen .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__sidebar,
+body main .fifth-screen .wrapper .fifth-screen__sidebar {
+  position: relative;
+  width: 400px;
+  background: #ececec;
+  -webkit-box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+  height: 100vh;
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__sidebar .sidebar__title,
+body main .fifth-screen .wrapper .fifth-screen__sidebar .sidebar__title {
+  margin: 33px 0 20px 24px;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__sidebar .sidebar__block,
+body main .fifth-screen .wrapper .fifth-screen__sidebar .sidebar__block {
+  width: 287px;
+  height: 350px;
+  background: #c4c4c4;
+  margin: 0 7px;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__sidebar .sidebar__block .block__title,
+body main .fifth-screen .wrapper .fifth-screen__sidebar .sidebar__block .block__title {
+  padding: 10px 0 5px 17px;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__sidebar .sidebar__block .data__col,
+body main .fifth-screen .wrapper .fifth-screen__sidebar .sidebar__block .data__col {
+  margin: 0 3px;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__sidebar .sidebar__block .data__col .data__row,
+body main .fifth-screen .wrapper .fifth-screen__sidebar .sidebar__block .data__col .data__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  height: 17px;
+  background: #e3e3e3;
+  padding: 6px 5px;
+  margin-bottom: 5px;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__sidebar .sidebar__block .data__col .data__row .data,
+body main .fifth-screen .wrapper .fifth-screen__sidebar .sidebar__block .data__col .data__row .data {
+  min-width: 130px;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__content,
+body main .fifth-screen .wrapper .fifth-screen__content {
+  width: 100%;
+  background: #f9f9f9;
+  -webkit-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+  margin: 10px;
+  height: 100vh;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__content .block__content,
+body main .fifth-screen .wrapper .fifth-screen__content .block__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__content .block__content .change__block,
+body main .fifth-screen .wrapper .fifth-screen__content .block__content .change__block {
+  margin: 13px 17px 20px 20px;
+  width: 100%;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__content .block__content .change__block .change__title,
+body main .fifth-screen .wrapper .fifth-screen__content .block__content .change__block .change__title {
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0 0 11px 16px;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__content .block__content .change__block .wrapper,
+body main .fifth-screen .wrapper .fifth-screen__content .block__content .change__block .wrapper {
+  display: block;
+  width: 100%;
+  background: #e3e3e3;
+  padding-bottom: 1px;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__content .block__content .change__block .wrapper .head-title,
+body main .fifth-screen .wrapper .fifth-screen__content .block__content .change__block .wrapper .head-title {
+  font-size: 24px;
+  line-height: 28px;
+  padding: 7px 31px;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__content .block__content .change__block .wrapper .change__container,
+body main .fifth-screen .wrapper .fifth-screen__content .block__content .change__block .wrapper .change__container {
+  max-width: 100%;
+  height: 386px;
+  background: #ffffff;
+  -webkit-box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  margin: 10px;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__content .block__content .change__block .bad-condition,
+body main .fifth-screen .wrapper .fifth-screen__content .block__content .change__block .bad-condition {
+  width: 435px;
+  height: 41px;
+  background: #faa0a0;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__content .block__content .change__block .bad-condition:hover,
+body main .fifth-screen .wrapper .fifth-screen__content .block__content .change__block .bad-condition:hover {
+  background: #d88a8a;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__content .block__content .change__block .bad-condition:active,
+body main .fifth-screen .wrapper .fifth-screen__content .block__content .change__block .bad-condition:active {
+  background: #ae7979;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__content .block__content .auto-data__block,
+body main .fifth-screen .wrapper .fifth-screen__content .block__content .auto-data__block {
+  width: 281px;
+  margin: 13px 32px 0 0;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__content .block__content .auto-data__block .auto-data__title,
+body main .fifth-screen .wrapper .fifth-screen__content .block__content .auto-data__block .auto-data__title {
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0 0 11px 16px;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__content .block__content .auto-data__block form input,
+body main .fifth-screen .wrapper .fifth-screen__content .block__content .auto-data__block form input {
+  width: 92%;
+  height: 33px;
+  background: #ffffff;
+  -webkit-box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  font-size: 24px;
+  line-height: 28px;
+  padding-left: 19px;
+  margin-bottom: 7px;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__content .block__content .auto-data__block form input::-webkit-input-placeholder, body main .fifth-screen .wrapper .fifth-screen__content .block__content .auto-data__block form input::-webkit-input-placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__content .block__content .auto-data__block form input::-moz-placeholder, body main .fifth-screen .wrapper .fifth-screen__content .block__content .auto-data__block form input::-moz-placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__content .block__content .auto-data__block form input:-ms-input-placeholder, body main .fifth-screen .wrapper .fifth-screen__content .block__content .auto-data__block form input:-ms-input-placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__content .block__content .auto-data__block form input::-ms-input-placeholder, body main .fifth-screen .wrapper .fifth-screen__content .block__content .auto-data__block form input::-ms-input-placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__content .block__content .auto-data__block form input::placeholder,
+body main .fifth-screen .wrapper .fifth-screen__content .block__content .auto-data__block form input::placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__content .block__content .auto-data__block form input:disabled,
+body main .fifth-screen .wrapper .fifth-screen__content .block__content .auto-data__block form input:disabled {
+  background: #f4f4f4;
+}
+
+html main .fifth-screen .wrapper .fifth-screen__content .block__content .auto-data__block form .sing-in__buttons,
+body main .fifth-screen .wrapper .fifth-screen__content .block__content .auto-data__block form .sing-in__buttons {
+  margin: 0 auto;
+  margin-top: 258px;
+}
+
+html main .sixth-screen .wrapper,
+body main .sixth-screen .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__sidebar,
+body main .sixth-screen .wrapper .sixth-screen__sidebar {
+  position: relative;
+  width: 400px;
+  background: #ececec;
+  -webkit-box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+  height: 100vh;
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__sidebar .sidebar__title,
+body main .sixth-screen .wrapper .sixth-screen__sidebar .sidebar__title {
+  margin: 33px 0 20px 24px;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__sidebar .sidebar__block,
+body main .sixth-screen .wrapper .sixth-screen__sidebar .sidebar__block {
+  width: 287px;
+  height: 350px;
+  background: #c4c4c4;
+  margin: 0 7px;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__sidebar .sidebar__block .block__title,
+body main .sixth-screen .wrapper .sixth-screen__sidebar .sidebar__block .block__title {
+  padding: 10px 0 5px 17px;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__sidebar .sidebar__block .data__col,
+body main .sixth-screen .wrapper .sixth-screen__sidebar .sidebar__block .data__col {
+  margin: 0 3px;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__sidebar .sidebar__block .data__col .data__row,
+body main .sixth-screen .wrapper .sixth-screen__sidebar .sidebar__block .data__col .data__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  height: 17px;
+  background: #e3e3e3;
+  padding: 6px 5px;
+  margin-bottom: 5px;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__sidebar .sidebar__block .data__col .data__row .data,
+body main .sixth-screen .wrapper .sixth-screen__sidebar .sidebar__block .data__col .data__row .data {
+  min-width: 130px;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__content,
+body main .sixth-screen .wrapper .sixth-screen__content {
+  width: 100%;
+  background: #f9f9f9;
+  -webkit-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+  margin: 10px;
+  height: 100vh;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__content .block__content,
+body main .sixth-screen .wrapper .sixth-screen__content .block__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__content .block__content .change__block,
+body main .sixth-screen .wrapper .sixth-screen__content .block__content .change__block {
+  margin: 13px 17px 20px 20px;
+  width: 100%;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__content .block__content .change__block .change__title,
+body main .sixth-screen .wrapper .sixth-screen__content .block__content .change__block .change__title {
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0 0 11px 16px;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__content .block__content .change__block .wrapper,
+body main .sixth-screen .wrapper .sixth-screen__content .block__content .change__block .wrapper {
+  display: block;
+  width: 100%;
+  background: #e3e3e3;
+  padding-bottom: 1px;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__content .block__content .change__block .wrapper .head-title,
+body main .sixth-screen .wrapper .sixth-screen__content .block__content .change__block .wrapper .head-title {
+  font-size: 24px;
+  line-height: 28px;
+  padding: 7px 31px;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__content .block__content .change__block .wrapper .change__container,
+body main .sixth-screen .wrapper .sixth-screen__content .block__content .change__block .wrapper .change__container {
+  max-width: 100%;
+  height: 386px;
+  background: #ffffff;
+  -webkit-box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  margin: 10px;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__content .block__content .auto-data__block,
+body main .sixth-screen .wrapper .sixth-screen__content .block__content .auto-data__block {
+  width: 281px;
+  margin: 13px 32px 0 0;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__content .block__content .auto-data__block .auto-data__title,
+body main .sixth-screen .wrapper .sixth-screen__content .block__content .auto-data__block .auto-data__title {
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0 0 11px 16px;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__content .block__content .auto-data__block form input,
+body main .sixth-screen .wrapper .sixth-screen__content .block__content .auto-data__block form input {
+  width: 92%;
+  height: 33px;
+  background: #ffffff;
+  -webkit-box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  font-size: 24px;
+  line-height: 28px;
+  padding-left: 19px;
+  margin-bottom: 7px;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__content .block__content .auto-data__block form input::-webkit-input-placeholder, body main .sixth-screen .wrapper .sixth-screen__content .block__content .auto-data__block form input::-webkit-input-placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__content .block__content .auto-data__block form input::-moz-placeholder, body main .sixth-screen .wrapper .sixth-screen__content .block__content .auto-data__block form input::-moz-placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__content .block__content .auto-data__block form input:-ms-input-placeholder, body main .sixth-screen .wrapper .sixth-screen__content .block__content .auto-data__block form input:-ms-input-placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__content .block__content .auto-data__block form input::-ms-input-placeholder, body main .sixth-screen .wrapper .sixth-screen__content .block__content .auto-data__block form input::-ms-input-placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__content .block__content .auto-data__block form input::placeholder,
+body main .sixth-screen .wrapper .sixth-screen__content .block__content .auto-data__block form input::placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__content .block__content .auto-data__block form input:disabled,
+body main .sixth-screen .wrapper .sixth-screen__content .block__content .auto-data__block form input:disabled {
+  background: #f4f4f4;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__content .block__content .auto-data__block form .sing-in__buttons,
+body main .sixth-screen .wrapper .sixth-screen__content .block__content .auto-data__block form .sing-in__buttons {
+  margin: 0 auto;
+  margin-top: 197px;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__content .block__buttons,
+body main .sixth-screen .wrapper .sixth-screen__content .block__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__content .block__buttons .bad-condition,
+body main .sixth-screen .wrapper .sixth-screen__content .block__buttons .bad-condition {
+  width: 435px;
+  height: 41px;
+  background: #faa0a0;
+  margin-left: 20px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__content .block__buttons .bad-condition:hover,
+body main .sixth-screen .wrapper .sixth-screen__content .block__buttons .bad-condition:hover {
+  background: #d88a8a;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__content .block__buttons .bad-condition:active,
+body main .sixth-screen .wrapper .sixth-screen__content .block__buttons .bad-condition:active {
+  background: #ae7979;
+}
+
+html main .sixth-screen .wrapper .sixth-screen__content .block__buttons .sing-in__buttons,
+body main .sixth-screen .wrapper .sixth-screen__content .block__buttons .sing-in__buttons {
+  margin: 0;
+}
+
+html main .seventh-screen .wrapper,
+body main .seventh-screen .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__sidebar,
+body main .seventh-screen .wrapper .seventh-screen__sidebar {
+  position: relative;
+  width: 400px;
+  background: #ececec;
+  -webkit-box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+  height: 100vh;
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__sidebar .sidebar__title,
+body main .seventh-screen .wrapper .seventh-screen__sidebar .sidebar__title {
+  margin: 33px 0 20px 24px;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__sidebar .sidebar__block,
+body main .seventh-screen .wrapper .seventh-screen__sidebar .sidebar__block {
+  width: 287px;
+  height: 350px;
+  background: #c4c4c4;
+  margin: 0 7px;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__sidebar .sidebar__block .block__title,
+body main .seventh-screen .wrapper .seventh-screen__sidebar .sidebar__block .block__title {
+  padding: 10px 0 5px 17px;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__sidebar .sidebar__block .data__col,
+body main .seventh-screen .wrapper .seventh-screen__sidebar .sidebar__block .data__col {
+  margin: 0 3px;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__sidebar .sidebar__block .data__col .data__row,
+body main .seventh-screen .wrapper .seventh-screen__sidebar .sidebar__block .data__col .data__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  height: 17px;
+  background: #e3e3e3;
+  padding: 6px 5px;
+  margin-bottom: 5px;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__sidebar .sidebar__block .data__col .data__row .data,
+body main .seventh-screen .wrapper .seventh-screen__sidebar .sidebar__block .data__col .data__row .data {
+  min-width: 130px;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__content,
+body main .seventh-screen .wrapper .seventh-screen__content {
+  width: 100%;
+  background: #f9f9f9;
+  -webkit-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+  margin: 10px;
+  height: 100vh;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__content .block__content,
+body main .seventh-screen .wrapper .seventh-screen__content .block__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__content .block__content .change__block,
+body main .seventh-screen .wrapper .seventh-screen__content .block__content .change__block {
+  margin: 13px 17px 20px 20px;
+  width: 100%;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__content .block__content .change__block .change__title,
+body main .seventh-screen .wrapper .seventh-screen__content .block__content .change__block .change__title {
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0 0 11px 16px;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__content .block__content .change__block .wrapper,
+body main .seventh-screen .wrapper .seventh-screen__content .block__content .change__block .wrapper {
+  display: block;
+  width: 100%;
+  background: #e3e3e3;
+  padding-bottom: 1px;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__content .block__content .change__block .wrapper .head-title,
+body main .seventh-screen .wrapper .seventh-screen__content .block__content .change__block .wrapper .head-title {
+  font-size: 24px;
+  line-height: 28px;
+  padding: 7px 31px;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__content .block__content .change__block .wrapper .change__container,
+body main .seventh-screen .wrapper .seventh-screen__content .block__content .change__block .wrapper .change__container {
+  max-width: 100%;
+  height: 386px;
+  background: #ffffff;
+  -webkit-box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  margin: 10px;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__content .block__content .auto-data__block,
+body main .seventh-screen .wrapper .seventh-screen__content .block__content .auto-data__block {
+  width: 281px;
+  margin: 13px 32px 0 0;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__content .block__content .auto-data__block .auto-data__title,
+body main .seventh-screen .wrapper .seventh-screen__content .block__content .auto-data__block .auto-data__title {
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0 0 11px 16px;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__content .block__content .auto-data__block form input,
+body main .seventh-screen .wrapper .seventh-screen__content .block__content .auto-data__block form input {
+  width: 92%;
+  height: 33px;
+  background: #ffffff;
+  -webkit-box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  font-size: 24px;
+  line-height: 28px;
+  padding-left: 19px;
+  margin-bottom: 7px;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__content .block__content .auto-data__block form input::-webkit-input-placeholder, body main .seventh-screen .wrapper .seventh-screen__content .block__content .auto-data__block form input::-webkit-input-placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__content .block__content .auto-data__block form input::-moz-placeholder, body main .seventh-screen .wrapper .seventh-screen__content .block__content .auto-data__block form input::-moz-placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__content .block__content .auto-data__block form input:-ms-input-placeholder, body main .seventh-screen .wrapper .seventh-screen__content .block__content .auto-data__block form input:-ms-input-placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__content .block__content .auto-data__block form input::-ms-input-placeholder, body main .seventh-screen .wrapper .seventh-screen__content .block__content .auto-data__block form input::-ms-input-placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__content .block__content .auto-data__block form input::placeholder,
+body main .seventh-screen .wrapper .seventh-screen__content .block__content .auto-data__block form input::placeholder {
+  font-size: 24px;
+  line-height: 28px;
+  color: #c3c3c3;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__content .block__content .auto-data__block form input:disabled,
+body main .seventh-screen .wrapper .seventh-screen__content .block__content .auto-data__block form input:disabled {
+  background: #f4f4f4;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__content .block__content .auto-data__block form .sing-in__buttons,
+body main .seventh-screen .wrapper .seventh-screen__content .block__content .auto-data__block form .sing-in__buttons {
+  margin: 0 auto;
+  margin-top: 197px;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__content .block__buttons,
+body main .seventh-screen .wrapper .seventh-screen__content .block__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__content .block__buttons .bad-condition,
+body main .seventh-screen .wrapper .seventh-screen__content .block__buttons .bad-condition {
+  width: 435px;
+  height: 41px;
+  background: #faa0a0;
+  margin-left: 20px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__content .block__buttons .bad-condition:hover,
+body main .seventh-screen .wrapper .seventh-screen__content .block__buttons .bad-condition:hover {
+  background: #d88a8a;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__content .block__buttons .bad-condition:active,
+body main .seventh-screen .wrapper .seventh-screen__content .block__buttons .bad-condition:active {
+  background: #ae7979;
+}
+
+html main .seventh-screen .wrapper .seventh-screen__content .block__buttons .sing-in__buttons,
+body main .seventh-screen .wrapper .seventh-screen__content .block__buttons .sing-in__buttons {
+  margin: 0;
+}
+
+html main .eighth-screen .wrapper,
+body main .eighth-screen .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html main .eighth-screen .wrapper .eighth-screen__sidebar,
+body main .eighth-screen .wrapper .eighth-screen__sidebar {
+  position: relative;
+  width: 400px;
+  background: #ececec;
+  -webkit-box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+  height: 100vh;
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+html main .eighth-screen .wrapper .eighth-screen__sidebar .sidebar__title,
+body main .eighth-screen .wrapper .eighth-screen__sidebar .sidebar__title {
+  margin: 33px 0 20px 24px;
+}
+
+html main .eighth-screen .wrapper .eighth-screen__sidebar .sidebar__block,
+body main .eighth-screen .wrapper .eighth-screen__sidebar .sidebar__block {
+  width: 287px;
+  height: 350px;
+  background: #c4c4c4;
+  margin: 0 7px;
+}
+
+html main .eighth-screen .wrapper .eighth-screen__sidebar .sidebar__block .block__title,
+body main .eighth-screen .wrapper .eighth-screen__sidebar .sidebar__block .block__title {
+  padding: 10px 0 5px 17px;
+}
+
+html main .eighth-screen .wrapper .eighth-screen__sidebar .sidebar__block .data__col,
+body main .eighth-screen .wrapper .eighth-screen__sidebar .sidebar__block .data__col {
+  margin: 0 3px;
+}
+
+html main .eighth-screen .wrapper .eighth-screen__sidebar .sidebar__block .data__col .data__row,
+body main .eighth-screen .wrapper .eighth-screen__sidebar .sidebar__block .data__col .data__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  height: 17px;
+  background: #e3e3e3;
+  padding: 6px 5px;
+  margin-bottom: 5px;
+}
+
+html main .eighth-screen .wrapper .eighth-screen__sidebar .sidebar__block .data__col .data__row .data,
+body main .eighth-screen .wrapper .eighth-screen__sidebar .sidebar__block .data__col .data__row .data {
+  min-width: 130px;
+}
+
+html main .eighth-screen .wrapper .eighth-screen__content,
+body main .eighth-screen .wrapper .eighth-screen__content {
+  width: 100%;
+  background: #f9f9f9;
+  -webkit-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+  margin: 10px;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+html main .eighth-screen .wrapper .eighth-screen__content .block__form,
+body main .eighth-screen .wrapper .eighth-screen__content .block__form {
+  width: 310px;
+  height: 553px;
+  margin: 5px;
+}
+
+html main .eighth-screen .wrapper .eighth-screen__content .block__form .form-container,
+body main .eighth-screen .wrapper .eighth-screen__content .block__form .form-container {
+  width: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(#c2c2c2), to(#c2c2c2)), #f4f4f4;
+  background: -o-linear-gradient(bottom, #c2c2c2, #c2c2c2), #f4f4f4;
+  background: linear-gradient(0deg, #c2c2c2, #c2c2c2), #f4f4f4;
+  margin-bottom: 35px;
+}
+
+html main .eighth-screen .wrapper .eighth-screen__content .block__form .form-container .form-container__title,
+body main .eighth-screen .wrapper .eighth-screen__content .block__form .form-container .form-container__title {
+  padding: 3px 0 0 44px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+html main .eighth-screen .wrapper .eighth-screen__content .block__form .form-container form,
+body main .eighth-screen .wrapper .eighth-screen__content .block__form .form-container form {
+  text-align: center;
+}
+
+html main .eighth-screen .wrapper .eighth-screen__content .block__form .form-container form input,
+body main .eighth-screen .wrapper .eighth-screen__content .block__form .form-container form input {
+  margin: 7px 10px;
+  width: 252px;
+  height: 41px;
+  background: #e3e3e3;
+  padding-left: 29px;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+html main .eighth-screen .wrapper .eighth-screen__content .block__form .form-container form input::-webkit-input-placeholder, body main .eighth-screen .wrapper .eighth-screen__content .block__form .form-container form input::-webkit-input-placeholder {
+  color: #7b7b7b;
+}
+
+html main .eighth-screen .wrapper .eighth-screen__content .block__form .form-container form input::-moz-placeholder, body main .eighth-screen .wrapper .eighth-screen__content .block__form .form-container form input::-moz-placeholder {
+  color: #7b7b7b;
+}
+
+html main .eighth-screen .wrapper .eighth-screen__content .block__form .form-container form input:-ms-input-placeholder, body main .eighth-screen .wrapper .eighth-screen__content .block__form .form-container form input:-ms-input-placeholder {
+  color: #7b7b7b;
+}
+
+html main .eighth-screen .wrapper .eighth-screen__content .block__form .form-container form input::-ms-input-placeholder, body main .eighth-screen .wrapper .eighth-screen__content .block__form .form-container form input::-ms-input-placeholder {
+  color: #7b7b7b;
+}
+
+html main .eighth-screen .wrapper .eighth-screen__content .block__form .form-container form input::placeholder,
+body main .eighth-screen .wrapper .eighth-screen__content .block__form .form-container form input::placeholder {
+  color: #7b7b7b;
+}
+
+html main .eighth-screen .wrapper .eighth-screen__content .block__form .form-container .data-form,
+body main .eighth-screen .wrapper .eighth-screen__content .block__form .form-container .data-form {
+  padding-bottom: 224px;
+}
+
+html main .eighth-screen .wrapper .eighth-screen__content .block__form .form-container .additional-services,
+body main .eighth-screen .wrapper .eighth-screen__content .block__form .form-container .additional-services {
+  padding-bottom: 166px;
+}
+
+html main .eighth-screen .wrapper .eighth-screen__content .block__form .sing-in__buttons,
+body main .eighth-screen .wrapper .eighth-screen__content .block__form .sing-in__buttons {
+  margin: 0 auto;
+  margin-top: 54px;
+}
